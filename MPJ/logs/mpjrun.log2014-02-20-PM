@@ -1,0 +1,47 @@
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <F:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <null>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <null>
+ DEBUG runtime  - codeBase : <null>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className null
+ DEBUG runtime  - mpjHomeDir F:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\Java
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <2> threads
+ DEBUG runtime  - cp = F:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;F:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;F:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;F:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;F:\dbc\creche\mpj-v0_35P02/lib/starter.jar;F:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=F:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;F:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;F:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;F:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;F:\dbc\creche\mpj-v0_35P02/lib/starter.jar;F:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: F:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;F:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;F:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;F:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;F:\dbc\creche\mpj-v0_35P02/lib/starter.jar;F:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\Java
+ DEBUG runtime  - 5: 2
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: EMPTY
+ DEBUG runtime  - 10: null/null
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\Java
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...

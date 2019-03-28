@@ -1,0 +1,2269 @@
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>1
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <1>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20052@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=56640,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=56640,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20054@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20056@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=56648,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=56648,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>1
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <1>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20058@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=56660,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=56660,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20060@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20062@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=56667,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=56667,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>1
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <1>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20064@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=56683,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=56683,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20066@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20068@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=56690,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=56690,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>1
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <1>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20070@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=56704,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=56704,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20072@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20074@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=56711,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=56711,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>1
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <1>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20076@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 1
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=1/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=57199,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=57199,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20078@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20080@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=2/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=57206,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=57206,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>4
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <4>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20082@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20084@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20086@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20088@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=57250,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=57250,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>4
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <4>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20090@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20092@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20094@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20096@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=57621,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=57621,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>4
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <4>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20098@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20100@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20102@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20104@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=57807,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=57807,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>4
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <4>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20106@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20108@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20110@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20112@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=58021,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=58021,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>4
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <4>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20114@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20116@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20118@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20120@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=59362,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=59362,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>4
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <4>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20122@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20124@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20126@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20128@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=59391,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=59391,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->29
+ DEBUG mpjdaemon  - URL:<http://148.197.137.109:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>4
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->2
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->30
+ DEBUG mpjdaemon  - wdir :<D:\dbc\creche\collab-filtering>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->5
+ DEBUG mpjdaemon  - className :<ALSWR>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->36
+ DEBUG mpjdaemon  - mpjURL:<http://148.197.137.109:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->14
+ DEBUG mpjdaemon  - ldr:<useLocalLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->1
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <4>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20130@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20132@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20134@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <S7LCARPENB1.uni.ds.port.ac.uk@20136@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: .;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02/lib/loader1.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpj.jar;D:\dbc\creche\mpj-v0_35P02/lib/log4j-1.2.11.jar;D:\dbc\creche\mpj-v0_35P02/lib/wrapper.jar;.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://148.197.137.109:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useLocalLoader
+ DEBUG mpjdaemon  - 9: http://148.197.137.109:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: ALSWR
+ DEBUG mpjdaemon  - 11: ml-20m/p=4/trunc-ratings
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/148.197.137.109,port=59421,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/148.197.137.109,port=59421,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+

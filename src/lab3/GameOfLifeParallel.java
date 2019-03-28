@@ -1,25 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package lab3;
 
 import java.awt.*;
 import javax.swing.*;
 
+import java.util.concurrent.CyclicBarrier;
+
 public class GameOfLifeParallel extends Thread {
 
-    final static int P = 1; // Amount of threads to run on
-    final static int N = 1024;
-    final static int CELL_SIZE = 1;
+    final static int N = 256;
+    final static int P = 256;  // Number of threads
+    final static int CELL_SIZE = 4;
     final static int DELAY = 0;
 
     static int[][] state = new int[N][N];
-
     static int[][] sums = new int[N][N];
 
     static Display display = new Display();
+
+    static CyclicBarrier barrier = new CyclicBarrier(P);
 
     public static void main(String args[]) throws Exception {
 
@@ -29,7 +26,10 @@ public class GameOfLifeParallel extends Thread {
                 state[i][j] = Math.random() > 0.5 ? 1 : 0;
             }
         }
-        
+
+        display.repaint();
+        pause();
+
         GameOfLifeParallel[] threads = new GameOfLifeParallel[P];
         for (int me = 0; me < P; me++) {
             threads[me] = new GameOfLifeParallel(me);
@@ -39,25 +39,31 @@ public class GameOfLifeParallel extends Thread {
         for (int me = 0; me < P; me++) {
             threads[me].join();
         }
+    }
 
-        display.repaint();
-        pause();
+    int me;
+
+    GameOfLifeParallel(int me) {
+        this.me = me;
     }
-    
-    int iter;
-    public GameOfLifeParallel(int iter){
-        this.iter = iter;
-    }
-    
+
+    final static int B = N / P;  // block size
+
     public void run() {
+
+        int begin = me * B;
+        int end = begin + B;
+
         // Main update loop.
         int iter = 0;
         while (true) {
 
-            System.out.println("iter = " + iter++);
+            if (me == 0) {
+                System.out.println("iter = " + iter++);
+            }
 
             // Calculate neighbour sums.
-            for (int i = 0; i < N; i++) {
+            for (int i = begin; i < end; i++) {
                 for (int j = 0; j < N; j++) {
 
                     // find neighbours...
@@ -73,8 +79,10 @@ public class GameOfLifeParallel extends Thread {
                 }
             }
 
+            synch();
+
             // Update state of board values.
-            for (int i = 0; i < N; i++) {
+            for (int i = begin; i < end; i++) {
                 for (int j = 0; j < N; j++) {
                     switch (sums[i][j]) {
                         case 2:
@@ -89,43 +97,54 @@ public class GameOfLifeParallel extends Thread {
                 }
             }
 
-            display.repaint();
+            synch();
+
+            if (me == 0) {
+                display.repaint();
+            }
+
             pause();
         }
     }
-}
 
-static class Display extends JPanel {
+    static class Display extends JPanel {
 
-    final static int WINDOW_SIZE = N * CELL_SIZE;
+        final static int WINDOW_SIZE = N * CELL_SIZE;
 
-    Display() {
+        Display() {
 
-        setPreferredSize(new Dimension(WINDOW_SIZE, WINDOW_SIZE));
+            JFrame frame = new JFrame("Life");
+            frame.setSize(WINDOW_SIZE, WINDOW_SIZE);
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setContentPane(this);
+            frame.setVisible(true);
+        }
 
-        JFrame frame = new JFrame("Life");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setContentPane(this);
-        frame.pack();
-        frame.setVisible(true);
-    }
-
-    public void paintComponent(Graphics g) {
-        g.setColor(Color.BLACK);
-        g.fillRect(0, 0, WINDOW_SIZE, WINDOW_SIZE);
-        g.setColor(Color.WHITE);
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                if (state[i][j] == 1) {
-                    g.fillRect(CELL_SIZE * i, CELL_SIZE * j,
-                            CELL_SIZE, CELL_SIZE);
+        public void paintComponent(Graphics g) {
+            g.setColor(Color.BLACK);
+            g.fillRect(0, 0, WINDOW_SIZE, WINDOW_SIZE);
+            g.setColor(Color.WHITE);
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < N; j++) {
+                    if (state[i][j] == 1) {
+                        g.fillRect(CELL_SIZE * i, CELL_SIZE * j,
+                                CELL_SIZE, CELL_SIZE);
+                    }
                 }
             }
         }
     }
-}
 
-static void pause() {
+    static void synch() {
+        try {
+            barrier.await();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
+    }
+
+    static void pause() {
         try {
             Thread.sleep(DELAY);
         } catch (InterruptedException e) {

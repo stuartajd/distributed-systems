@@ -1,0 +1,247 @@
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <login3>
+ DEBUG runtime  - nameT login3
+ DEBUG runtime  - addressT 10.30.0.23
+ DEBUG runtime  - Line login3 added to vector [login3]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{login3=2}
+ DEBUG runtime  - Address: login3/10.30.0.23
+ DEBUG runtime  - Name :login3
+ DEBUG runtime  - spmdClass<http://10.30.0.23:15000/>
+ DEBUG runtime  - Connecting to login3@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=login3/10.30.0.23,port=10000,localport=56270] to [Socket[addr=login3/10.30.0.23,port=10000,localport=56270]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {login3=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=32 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=36 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=40 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=44 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=login3/10.30.0.23,port=10000,localport=56270]0
+ DEBUG runtime  - procsPerMachineTable {login3=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <login3>
+ DEBUG runtime  - nameT login3
+ DEBUG runtime  - addressT 10.30.0.23
+ DEBUG runtime  - Line login3 added to vector [login3]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{login3=2}
+ DEBUG runtime  - Address: login3/10.30.0.23
+ DEBUG runtime  - Name :login3
+ DEBUG runtime  - spmdClass<http://10.30.0.23:15000/>
+ DEBUG runtime  - Connecting to login3@10000
+ DEBUG runtime  - 1
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <login3>
+ DEBUG runtime  - nameT login3
+ DEBUG runtime  - addressT 10.30.0.23
+ DEBUG runtime  - Line login3 added to vector [login3]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{login3=2}
+ DEBUG runtime  - Address: login3/10.30.0.23
+ DEBUG runtime  - Name :login3
+ DEBUG runtime  - spmdClass<http://10.30.0.23:15000/>
+ DEBUG runtime  - Connecting to login3@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=login3/10.30.0.23,port=10000,localport=56547] to [Socket[addr=login3/10.30.0.23,port=10000,localport=56547]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {login3=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=32 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=36 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=40 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=44 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=login3/10.30.0.23,port=10000,localport=56547]0
+ DEBUG runtime  - procsPerMachineTable {login3=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <login3>
+ DEBUG runtime  - nameT login3
+ DEBUG runtime  - addressT 10.30.0.23
+ DEBUG runtime  - Line login3 added to vector [login3]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{login3=2}
+ DEBUG runtime  - Address: login3/10.30.0.23
+ DEBUG runtime  - Name :login3
+ DEBUG runtime  - spmdClass<http://10.30.0.23:15000/>
+ DEBUG runtime  - Connecting to login3@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=login3/10.30.0.23,port=10000,localport=56828] to [Socket[addr=login3/10.30.0.23,port=10000,localport=56828]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {login3=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=32 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=36 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=40 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=44 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=login3/10.30.0.23,port=10000,localport=56828]0
+ DEBUG runtime  - procsPerMachineTable {login3=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <login3>
+ DEBUG runtime  - nameT login3
+ DEBUG runtime  - addressT 10.30.0.23
+ DEBUG runtime  - Line login3 added to vector [login3]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{login3=2}
+ DEBUG runtime  - Address: login3/10.30.0.23
+ DEBUG runtime  - Name :login3
+ DEBUG runtime  - spmdClass<http://10.30.0.23:15000/>
+ DEBUG runtime  - Connecting to login3@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=login3/10.30.0.23,port=10000,localport=57110] to [Socket[addr=login3/10.30.0.23,port=10000,localport=57110]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {login3=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=32 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=36 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=40 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=44 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=login3/10.30.0.23,port=10000,localport=57110]0
+ DEBUG runtime  - procsPerMachineTable {login3=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---

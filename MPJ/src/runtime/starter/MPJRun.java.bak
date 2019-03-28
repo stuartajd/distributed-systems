@@ -1,0 +1,1145 @@
+/*
+ The MIT License
+
+ Copyright (c) 2005 - 2010
+   1. Distributed Systems Group, University of Portsmouth (2005)
+   2. Aamir Shafi (2005 - 2010)
+   3. Bryan Carpenter (2005 - 2010)
+   4. Mark Baker (2005 - 2010)
+
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+ NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+ THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+/*
+ * File         : MPJRun.java 
+ * Author       : Aamir Shafi, Bryan Carpenter, Deniz Unal
+ * Created      : Sun Dec 12 12:22:15 BST 2004
+ * Revision     : $Revision: 1.35 $
+ * Updated      : $Date: Tue Dec  8 20:42:15 PKT 2009$
+ */
+
+package runtime.starter;
+
+import java.nio.channels.*;
+import java.nio.*;
+import java.net.*;
+import java.io.*;
+import java.util.*;
+
+import org.mortbay.http.HttpServer;
+import org.mortbay.http.SocketListener;
+import org.mortbay.http.HttpListener;
+import org.mortbay.http.HttpContext;
+import org.mortbay.http.handler.ResourceHandler;
+
+import org.apache.log4j.Logger ;
+import org.apache.log4j.PropertyConfigurator ;
+import org.apache.log4j.PatternLayout ;
+import org.apache.log4j.FileAppender ;
+import org.apache.log4j.Level ;
+import org.apache.log4j.DailyRollingFileAppender ;
+import org.apache.log4j.spi.LoggerRepository ;
+
+import runtime.MPJRuntimeException ;
+
+public class MPJRun {
+
+  private static int MPJ_SERVER_PORT = 20000 ; 
+  private static int mxBoardNum = 0 ; 
+  private static int D_SER_PORT = getPortFromWrapper() ;
+  private static int endPointID = 0 ;
+
+  int S_PORT = 15000; 
+  String machinesFile = "machines" ; 
+  ArrayList<String> jvmArgs = new ArrayList<String>() ; 
+  ArrayList<String> appArgs = new ArrayList<String>() ; 
+  String[] jArgs = null ;  
+  String[] aArgs = null ;
+  private int psl = 128*1024 ;  //128K 
+  static Logger logger = null ; 
+  FileOutputStream cfos = null;
+  File CONF_FILE = null;
+  private volatile boolean wait = true;
+  private Vector<Socket> peerSockets;
+  private InetAddress localaddr = null;
+  private volatile boolean selectorFlag = true;
+  private String LOG_FILE = null;
+  private String hostName = null;
+  private String hostIP = null;
+  private Thread selectorThreadStarter = null;
+  private Vector machineVector = new Vector();
+  int nprocs = Runtime.getRuntime().availableProcessors() ; 
+  String spmdClass = null;
+  String mpjURL = null;
+  String deviceName = "multicore";
+  String applicationArgs = "default_app_arg" ;
+  String mpjHomeDir = null;
+  byte[] urlArray = null;
+  Hashtable procsPerMachineTable = new Hashtable();
+  int endCount = 0; 
+  int streamEndedCount = 0 ;  // does nothing?? dbc
+  String wdir;
+  String jarName = null;
+  String className = null ; 
+  String codeBase = null;
+  String mpjCodeBase = null ; 
+  HttpServer server = null;
+  HttpServer mpjServer = null; 
+  ByteBuffer buffer = ByteBuffer.allocate(1000);
+  String loader = "useRemoteLoader";
+
+  static final boolean DEBUG = true ; 
+  static final String VERSION = "0.35" ; 
+  private static int RUNNING_JAR_FILE = 2 ; 
+  private static int RUNNING_CLASS_FILE = 1 ; 
+
+  /**
+   * Every thing is being inside this constructor :-)
+   */
+  public MPJRun(String args[]) throws Exception {
+    java.util.logging.Logger logger1 = 
+    java.util.logging.Logger.getLogger("");
+
+
+    //remove all existing log handlers: remove the ERR handler
+    for (java.util.logging.Handler h : logger1.getHandlers()) {
+      logger1.removeHandler(h);
+    }
+		  
+    Map<String,String> map = System.getenv() ;
+	    mpjHomeDir = map.get("MPJ_HOME");
+
+    createLogger(args) ; 
+
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.info(" --MPJRun invoked--"); 
+      logger.info(" adding shutdown hook thread"); 
+    }
+
+	    
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.info("processInput called ..."); 
+    }
+
+    processInput(args);
+
+
+    if(deviceName.equals("multicore")) {
+       
+      System.out.println("MPJ Express ("+VERSION+") is started in the "+
+                                              "multicore configuration"); 
+
+      if(DEBUG && logger.isDebugEnabled()) {
+        logger.info("jarName "+jarName) ; 
+        logger.info("className "+className) ; 
+      }
+
+      int jarOrClass = (className==null?RUNNING_JAR_FILE:RUNNING_CLASS_FILE);
+       
+      //System.out.println("codeBase"+codeBase) ; 
+      MulticoreDaemon multicoreDaemon =
+          new MulticoreDaemon(className, codeBase+"/"+jarName, jarOrClass, 
+	                           nprocs, wdir, jvmArgs, appArgs) ;
+      return ;
+
+    }
+    else { 
+      System.out.println("MPJ Express ("+VERSION+") is started in the "+
+                                              "cluster configuration"); 
+    }
+
+    //System.exit(0) ; 
+    readMachineFile();
+    machinesSanityCheck() ;
+	    
+    CONF_FILE = new File( codeBase+"/mpjdev.conf");
+    mpjCodeBase = mpjHomeDir+"/lib"; 
+/*
+    if(CONF_FILE.exists()) {
+      throw new RuntimeException("Another mpjrun module is already running "+
+		      "on this machine"); 
+    }
+*/    
+	    
+    CONF_FILE.deleteOnExit() ;
+
+    if(DEBUG && logger.isDebugEnabled()) { 
+      logger.debug("CONF_FILE_PATH <"+CONF_FILE.getAbsolutePath()+">");
+    }
+		
+    assignTaskPerMachine();
+	
+			
+    try {
+
+      localaddr = InetAddress.getLocalHost();
+      hostName = localaddr.getHostName();
+
+      if(hostIP == null)
+        hostIP = localaddr.getHostAddress(); 
+
+      if(DEBUG && logger.isDebugEnabled()) {
+	logger.debug("Address: " + localaddr);
+	logger.debug("Name :" + hostName);
+      }
+
+    }
+    catch (UnknownHostException unkhe) {
+      throw new MPJRuntimeException(unkhe);  
+    }
+
+
+    if(jarName != null) {
+      spmdClass = "http://"+hostIP+":"+S_PORT+"/"+jarName;
+    }
+    else {
+      spmdClass = "http://"+hostIP+":"+S_PORT+"/";
+    }
+
+    mpjURL = "http://"+hostIP+":"+(S_PORT+1)+"/mpj.jar";
+	    
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.debug("spmdClass<"+spmdClass+">");
+    }
+
+    urlArray = spmdClass.getBytes();
+
+    peerSockets = new Vector<Socket>();
+
+    clientSocketInit();
+
+    startHttpServer();
+
+		
+	int[] mpjPorts=new int[machineVector.size()];
+	
+	for(int j=0;j<machineVector.size();j++){
+		OutputStream os = peerSockets.get(j).getOutputStream();
+		DataOutputStream dos = new DataOutputStream(os);
+		dos.writeInt(((Integer)(procsPerMachineTable.get(machineVector.get(j)))).intValue());
+		DataInputStream dis = new DataInputStream(peerSockets.get(j).getInputStream());
+		mpjPorts[j]=dis.readInt();
+	}
+	
+	
+	writeConfigurationFile(mpjPorts);
+	for (int j = 0; j < peerSockets.size(); j++) {
+	
+		InputHandlerThread inputHandlerStarter = new InputHandlerThread(peerSockets.get(j),machineVector,streamEndedCount,this);
+	    inputHandlerStarter.start();
+	}
+
+    /* 
+     * wait till this client has connected to all daemons
+     */
+    Wait();
+
+    buffer.clear();
+	
+    for (int j = 0; j < peerSockets.size(); j++) {
+
+      Socket peerSocket = peerSockets.get(j);
+      
+      if(DEBUG && logger.isDebugEnabled()) { 
+	logger.debug("procsPerMachineTable " + procsPerMachineTable);
+      }
+
+      /* FIXME: should we not be checking all IP addresses of remote 
+                machine? Does it make sense? */
+
+      String hAddress = 
+                     peerSocket.getInetAddress().getHostAddress();
+      String hName = peerSocket.getInetAddress().getHostName();
+	  OutputStream os = peerSocket.getOutputStream();
+      Integer nProcessesInt = ((Integer) procsPerMachineTable.get(hName)) ; 
+
+      if(nProcessesInt == null) { 
+        nProcessesInt = ((Integer) procsPerMachineTable.get(hAddress)) ;     
+      } 
+
+      int nProcesses = nProcessesInt.intValue();
+
+      pack(nProcesses); 
+
+      if(DEBUG && logger.isDebugEnabled()) { 
+	logger.debug("Sending to " + peerSocket + buffer.position());
+      }
+
+	  os.write(buffer.array());
+
+	  buffer.clear();
+	  
+    }
+
+    if(DEBUG && logger.isDebugEnabled()) { 
+      logger.debug("procsPerMachineTable " + procsPerMachineTable);
+    }
+
+    addShutdownHook();
+
+    /* 
+     * waiting to get the answer from the daemons that the job has finished.
+     */ 
+    Wait();
+
+    logger.debug("Calling the finish method now");
+
+    this.finish();
+
+  }
+  private void startHttpServer() throws Exception {
+
+    boolean isOK = false;
+    boolean isError = false;
+
+    while(isOK != true) {
+
+      isOK = false;
+      isError = false;
+      
+      try { 
+        server = new HttpServer();
+        SocketListener listener = new SocketListener();
+        listener.setPort(S_PORT);
+        server.addListener(listener);
+        HttpContext context = new HttpContext();
+        context.setContextPath("/");
+        context.setResourceBase(codeBase);
+        context.addHandler(new ResourceHandler());
+        server.addContext(context);
+        server.start();
+    
+        mpjServer = new HttpServer();
+        SocketListener listener2 = new SocketListener();
+        listener2.setPort(S_PORT+1);
+        mpjServer.addListener(listener2);
+        HttpContext context2 = new HttpContext();
+        context2.setContextPath("/");
+        context2.setResourceBase(mpjCodeBase);
+        context2.addHandler(new ResourceHandler());
+        mpjServer.addContext(context2);
+        mpjServer.start();
+      }
+      catch(org.mortbay.util.MultiException e) { 
+        if(DEBUG && logger.isDebugEnabled()) {
+          logger.debug("startHttp server method threw an exception "+
+             "while starting the server on ports "+S_PORT+" or "+(S_PORT+1)+
+             ". We'll try starting servers on next two consecutive ports") ;
+        }
+        isError = true;
+      }
+      finally {
+
+        if(isError == false)
+          isOK=true;
+        else if(isError == true) {
+          isOK = false;
+          S_PORT+=2;
+        }
+      }
+    }
+  }
+	  
+  /* 
+   * 1. URL [http://holly:port/codebase/test.jar]
+   * 2. NP  [# of processes]
+   * 3. args to JVM
+   * 4. device to use 
+   * 5. application arguments ..
+   * 6. GO_FOR_IT_SIGNAL 
+   */ 
+  private void pack(int nProcesses) {
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.debug("buffer (initial)" + buffer);
+    }
+    buffer.put("url-".getBytes());
+
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.debug("buffer (after putting url-) " + buffer);
+    }
+    buffer.putInt(urlArray.length);
+
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.debug("buffer urlArray.length)" + buffer);
+    }
+
+    buffer.put(urlArray, 0, urlArray.length);
+
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.debug("buffer urlArray itself " + buffer);
+    }
+
+    buffer.put("num-".getBytes());
+	 
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.debug("buffer " + buffer);
+    }
+
+    buffer.putInt(4);
+
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.debug("buffer(after writing 4) " + buffer);
+      logger.debug("nProcesses " + nProcesses);
+    }
+
+    buffer.putInt(nProcesses);
+
+    if(DEBUG && logger.isDebugEnabled()) {
+      logger.debug("buffer(after nProcesses) " + buffer);
+    }
+
+    buffer.put("arg-".getBytes());
+    buffer.putInt(jArgs.length); 
+    for(int j=0 ; j<jArgs.length ; j++) {
+      buffer.putInt(jArgs[j].getBytes().length);
+      buffer.put(jArgs[j].getBytes(), 0, jArgs[j].getBytes().length);
+    }
+
+    if(wdir == null) { 
+      wdir = System.getProperty("user.dir") ;
+    }
+
+    buffer.put("wdr-".getBytes());
+    buffer.putInt(wdir.getBytes().length);
+    buffer.put(wdir.getBytes(), 0, wdir.getBytes().length); 
+    
+    if(className != null) {
+      buffer.put("cls-".getBytes());
+      buffer.putInt(className.getBytes().length);
+      buffer.put(className.getBytes(), 0, className.getBytes().length); 
+    }
+
+    buffer.put("mul-".getBytes()); //mpj URL ..
+    buffer.putInt(mpjURL.getBytes().length);
+    buffer.put(mpjURL.getBytes(), 0, 
+		    mpjURL.getBytes().length); 
+    
+    buffer.put("dev-".getBytes());
+    buffer.putInt(deviceName.getBytes().length);
+    buffer.put(deviceName.getBytes(), 0, deviceName.getBytes().length); 
+
+    buffer.put("ldr-".getBytes());
+    buffer.putInt(loader.getBytes().length);
+    buffer.put(loader.getBytes(), 0, loader.getBytes().length); 
+	    
+    buffer.put("app-".getBytes());
+    buffer.putInt(aArgs.length); 
+
+    for(int j=0 ; j<aArgs.length ; j++) {
+      buffer.putInt(aArgs[j].getBytes().length);
+      buffer.put(aArgs[j].getBytes(), 0, aArgs[j].getBytes().length);
+    }
+
+    buffer.put("*GO*".getBytes(), 0, "*GO*".getBytes().length);
+
+    buffer.flip();
+  }
+
+  private void createLogger(String[] args) throws MPJRuntimeException {
+  
+    if(logger == null) {
+
+      DailyRollingFileAppender fileAppender = null ;
+
+      try {
+	fileAppender = new DailyRollingFileAppender(
+			    new PatternLayout(
+			    " %-5p %c %x - %m\n" ),
+			    mpjHomeDir+"/logs/mpjrun.log",
+			    "yyyy-MM-dd-a" );
+
+	Logger rootLogger = Logger.getRootLogger() ;
+	rootLogger.addAppender( fileAppender);
+	LoggerRepository rep =  rootLogger.getLoggerRepository() ;
+	rootLogger.setLevel ((Level) Level.ALL );
+	//rep.setThreshold((Level) Level.OFF ) ;
+	logger = Logger.getLogger( "runtime" );
+      }
+      catch(Exception e) {
+	throw new MPJRuntimeException(e) ;
+      }
+    }  
+  }
+
+  private void printUsage() { 
+    System.out.println(   
+      "mpjrun.[bat/sh] [options] class [args...]"+
+      "\n                (to execute a class)"+
+      "\nmpjrun.[bat/sh] [options] -jar jarfile [args...]"+
+      "\n                (to execute a jar file)"+
+      "\n\nwhere options include:"+
+      "\n   -np val            -- <# of cores>"+ 
+      "\n   -dev val           -- multicore"+
+      "\n   -dport val         -- <read from wrapper.conf>"+ 
+      "\n   -wdir val          -- $MPJ_HOME/bin"+ 
+      "\n   -mpjport val       -- 20000"+  
+      "\n   -mxboardnum val    -- 0"+  
+      "\n   -headnodeip val    -- ..."+
+      "\n   -psl val           -- 128Kbytes"+ 
+      "\n   -machinesfile val  -- machines"+ 
+      "\n   -localloader"+ 
+      "\n   -h                 -- print this usage information"+ 
+      "\n   ...any JVM arguments..."+
+ "\n Note: Value on the right in front of each option is the default value"+ 
+ "\n Note: 'MPJ_HOME' variable must be set");
+
+  }
+  
+
+  /**
+   * Parses the input ...
+   */
+  private void processInput(String args[]) {
+
+    if (args.length < 1) {
+      printUsage() ;
+      System.exit(0);  
+    }
+ 
+    boolean append = false;
+    boolean beforeJar = true ; 
+    
+    for (int i = 0; i < args.length; i++) {
+
+      if(args[i].equals("-np")) {
+
+        try {  
+          nprocs = new Integer(args[i+1]).intValue();
+	} 
+	catch(NumberFormatException e) {
+	  nprocs = Runtime.getRuntime().availableProcessors();
+	}
+
+        i++;
+      }
+
+      else if(args[i].equals("-h")) {
+        printUsage();
+        System.exit(0); 
+      }
+      
+      else if (args[i].equals("-dport")) {
+        D_SER_PORT = new Integer(args[i+1]).intValue();
+        i++;
+      }
+
+      else if (args[i].equals("-headnodeip")) {
+	hostIP = args[i+1] ;
+	i++;
+      }
+      
+      else if (args[i].equals("-localloader")) {
+        loader = "useLocalLoader" ; 	      
+      }
+      
+      else if (args[i].equals("-dev")) {
+        deviceName = args[i+1];
+        i++;
+	if(!(deviceName.equals("niodev") || deviceName.equals("mxdev") ||
+	                    deviceName.equals("multicore"))){
+	  System.out.println("MPJ Express currently does not support the <"+
+	                                   deviceName+"> device.");
+          System.out.println("Possible options are niodev, mxdev, and "+
+	                               "multicore devices.");
+	  System.out.println("exiting ...");
+	  System.exit(0); 
+	}
+      } 
+
+      else if (args[i].equals("-machinesfile")) {
+        machinesFile = args[i+1];
+        i++;
+      }
+
+      else if (args[i].equals("-wdir")) {
+        wdir = args[i+1];
+        i++;
+      }
+
+      else if(args[i].equals("-psl")) {
+        psl = new Integer(args[i+1]).intValue();
+        i++;
+      }
+      
+      else if (args[i].equals("-mpjport")) {
+        MPJ_SERVER_PORT = new Integer(args[i+1]).intValue();
+        i++;
+      }
+      
+      else if (args[i].equals("-mxboardnum")) {
+        mxBoardNum = new Integer(args[i+1]).intValue();
+        i++;
+      }
+      
+      else if (args[i].equals("-cp") | args[i].equals("-classpath")) {
+        jvmArgs.add("-cp");
+	jvmArgs.add(args[i+1]);
+        i++;
+      }
+      
+      else if (args[i].equals("-sport")) {
+        S_PORT = new Integer(args[i+1]).intValue();
+        i++;
+      }
+      
+      else if(args[i].equals("-class")) {
+        codeBase = System.getProperty("user.dir");	      
+	className = args[i+1];
+	beforeJar = false ; 
+	i++;
+      }
+      
+      else if(args[i].equals("-jar")) {
+        File tFile = new File( args[i+1] );
+	File absFile = tFile.getAbsoluteFile();
+	
+	if(tFile.exists() || loader.equals("useLocalLoader")) {
+          jarName = tFile.getName() ;
+	  codeBase = absFile.getParent();
+	  beforeJar = false ; 
+	  i++;
+	}
+	else {
+          throw new MPJRuntimeException("mpjrun cannot find the jar file <"+
+			  args[i+1]+">. Make sure this is the right path.");	
+	}
+	
+      }
+
+      else {
+	      
+        //these have to be jvm options ...  		
+        if(beforeJar) {
+          if(args[i].startsWith("-")) { 		
+	    jvmArgs.add(args[i]); 
+	  }
+          else {
+            codeBase = System.getProperty("user.dir");	      
+ 	    className = args[i];
+	    beforeJar = false ; 
+          }
+	}
+	
+        //these have to be app arguments ...		
+	else {
+          appArgs.add(args[i]);		
+	}
+
+      }
+
+    }
+
+    jArgs = jvmArgs.toArray(new String[0]);
+    aArgs = appArgs.toArray(new String[0]);
+
+    if(DEBUG && logger.isDebugEnabled()) {
+
+      logger.debug("###########################"); 	    
+      logger.debug("-appargs: <"+applicationArgs+">");
+      logger.debug("-dport: <"+D_SER_PORT+">");
+      logger.debug("-mpjport: <"+MPJ_SERVER_PORT+">");
+      logger.debug("-sport: <"+S_PORT+">");
+      logger.debug("-np: <"+nprocs+">");
+      logger.debug("$MPJ_HOME: <"+mpjHomeDir+">");
+      logger.debug("-dir: <"+codeBase+">"); 
+      logger.debug("-dev: <"+deviceName+">");
+      logger.debug("-psl: <"+psl+">");
+      logger.debug("-jarName: <"+jarName+">");
+      logger.debug("jvmArgs.length: <"+jArgs.length+">");
+      logger.debug("jarName : <"+jarName+">");
+      logger.debug("className : <"+className+">");
+      logger.debug("codeBase : <"+codeBase+">");
+      
+
+      for(int i=0; i<jArgs.length ; i++) {
+        logger.debug(" jvmArgs["+i+"]: <"+jArgs[i]+">");	      
+      }
+      
+      logger.debug("appArgs.length: <"+aArgs.length+">");
+
+      for(int i=0; i<aArgs.length ; i++) {
+        logger.debug(" appArgs["+i+"]: <"+aArgs[i]+">");	      
+      }
+      
+      
+      logger.debug("###########################"); 	    
+    }
+
+  }
+
+  private synchronized void Wait() throws Exception {
+    if (wait) {
+      logger.debug("Waiting ...");
+      this.wait();
+      logger.debug("Unwaiting ...");
+    }
+
+    wait = true;
+  }
+
+  public synchronized void Notify() {
+    logger.debug("Notifying ...");
+    this.notify();
+    wait = false;
+  }
+
+  private void assignTaskPerMachine(){
+  
+
+	int noOfMachines = machineVector.size();
+	
+	
+    if (nprocs < noOfMachines) {
+
+      if(DEBUG && logger.isDebugEnabled()) { 
+        logger.debug("Processes Requested " + nprocs +
+                  " are less than than machines " + noOfMachines);
+        logger.debug("Adding 1 processes to the first " + nprocs +
+                  " items");
+      }
+
+      for (int i = 0; i < nprocs; i++) {
+        procsPerMachineTable.put( (String) machineVector.get(i),
+                                 new Integer(1));
+	 
+        if(DEBUG && logger.isDebugEnabled()) { 
+          logger.debug("procPerMachineTable==>" + procsPerMachineTable);
+		}
+
+      }
+
+    }
+    else if (nprocs > noOfMachines) {
+
+		 logger.debug("Processes Requested " + nprocs +
+					  " are greater than than machines " + noOfMachines);
+		 int divisor = nprocs / noOfMachines;
+		 logger.debug("divisor " + divisor);
+		 int remainder = nprocs % noOfMachines;
+		 logger.debug("remainder " + remainder);
+
+		for (int i = 0; i < noOfMachines; i++) {	      
+          if (i < remainder) {		
+          procsPerMachineTable.put( (String) machineVector.get(i),
+                                   new Integer(divisor + 1));
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug("procPerMachineTable==>" + procsPerMachineTable);
+	      }	  
+        }	
+        else if (divisor > 0) {
+          procsPerMachineTable.put( (String) machineVector.get(i),
+                                   new Integer(divisor));
+	  
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug("procPerMachineTable==>" + procsPerMachineTable);
+	      }
+        }
+      }
+
+    }
+    else if (nprocs == noOfMachines) {
+
+      if(DEBUG && logger.isDebugEnabled()) { 
+        logger.debug("Processes Requested " + nprocs +
+                  " are equal to machines " + noOfMachines);
+        logger.debug("Adding a process each into the hashtable");
+      }
+      
+      for (int i = 0; i < nprocs; i++) {
+        procsPerMachineTable.put( (String) machineVector.get(i), 
+                                  new Integer(1));	
+        if(DEBUG && logger.isDebugEnabled()) { 
+          logger.debug("procPerMachineTable==>" + procsPerMachineTable);
+	    }
+      }
+    } 
+  }
+  
+  private void writeConfigurationFile(int[] mpjPorts){
+
+    int rank = 0;  
+	PrintStream cout = null;
+	try {
+      cfos = new FileOutputStream(CONF_FILE);
+    }
+    catch (FileNotFoundException fnfe) {}
+
+    cout = new PrintStream(cfos);
+    int noOfMachines = machineVector.size();
+    cout.println("# Number of Processes");
+    cout.println(nprocs);
+    cout.println("# Protocol Switch Limit");
+    cout.println(psl);
+    cout.println("# Entry, HOST_NAME/IP@SERVERPORT@RANK");
+    
+	for(int i=0;i<noOfMachines;i++){
+	    Integer noOfProcesses = 0;
+		try{
+		
+			noOfProcesses = (Integer)procsPerMachineTable.get((String)machineVector.get(i));
+		
+		}catch(Exception exc){
+		
+			exc.printStackTrace();
+		}
+		
+		for (int j = 0; j < noOfProcesses; j++) {
+            
+			if(deviceName.equals("niodev")) { 		  
+              cout.println( (String) machineVector.get(i) + "@" +
+                           (mpjPorts[i]+2*j) + "@" + (rank++));
+	        }else if(deviceName.equals("mxdev")) { 
+              cout.println( (String) machineVector.get(i) + "@" +
+                           (mxBoardNum+j) + "@" + (rank++));
+	        }
+        }
+	
+	}
+
+  }
+  
+  private void machinesSanityCheck() throws Exception {
+	  
+    for(int i=0 ; i<machineVector.size() ; i++) {
+	    
+      String host = (String) machineVector.get(i) ;
+
+      try {
+        InetAddress add = InetAddress.getByName(host);
+      } catch( Exception e) {
+        throw new MPJRuntimeException (e);	      
+      }
+      
+    }
+
+  }
+
+  /* assume 'machines'is in the current directory */
+  public void readMachineFile() throws Exception {
+
+    BufferedReader reader = null;
+
+    try {
+      reader = new BufferedReader(new FileReader( machinesFile ));
+    }
+    catch (FileNotFoundException fnfe) {
+      throw new MPJRuntimeException ( "<"+ machinesFile + "> file cannot "+
+                            " be found." +
+                            " The starter module assumes "+
+                            "it to be in the current directory.");
+    }
+
+    boolean loop = true;
+    String line = null;
+    int machineCount = 0 ; 
+
+    while (machineCount < nprocs) {
+
+      line = reader.readLine();
+
+      if(DEBUG && logger.isDebugEnabled()) {
+        logger.debug("line <" + line + ">");
+      }
+
+      if(line == null) { 
+        break ; 
+      }
+
+      line = line.trim();
+
+      if (line.startsWith("#") || line.equals("") ||
+          (machineVector.size() == nprocs)) {
+        //loop = false;
+        continue ;
+      }
+
+
+      machineCount ++ ;
+
+      InetAddress address = InetAddress.getByName(line);
+      String addressT = address.getHostAddress();
+      String nameT = address.getHostName();
+
+      if(DEBUG && logger.isDebugEnabled()) {
+        logger.debug("nameT " + nameT);
+        logger.debug("addressT " + addressT);
+      } 
+     
+      boolean alreadyPresent = false;
+      
+      for(int i=0 ; i<machineVector.size() ; i++) {
+
+        String machine = (String) machineVector.get(i); 
+
+        if(machine.equals(nameT) || machine.equals(addressT)) {  
+           alreadyPresent = true;
+           break ;
+        }
+
+      }
+
+      if(!alreadyPresent) { 
+
+        //if( addressT or nameT already present, then you are buggered ) {
+        //}
+      
+        /* What is the solution for this? */
+        //machineVector.add(addressT);
+        machineVector.add(nameT);
+
+        if(DEBUG && logger.isDebugEnabled()) {
+          logger.debug("Line " + line.trim() +
+                    " added to vector " + machineVector);
+        }
+
+      }
+
+    }//end while.
+  
+  }
+
+  private static int getPortFromWrapper() {
+
+    int port = 0;
+    FileInputStream in = null;
+    DataInputStream din = null;
+    BufferedReader reader = null;
+    String line = "";
+
+    try {
+
+      String path = System.getenv("MPJ_HOME")+"/conf/wrapper.conf";
+      in = new FileInputStream(path);
+      din = new DataInputStream(in);
+      reader = new BufferedReader(new InputStreamReader(din));
+
+      while ((line = reader.readLine()) != null)   {
+        if(line.startsWith("wrapper.app.parameter.2")) {
+          String trimmedLine=line.replaceAll("\\s+", "");
+          port = Integer.parseInt(trimmedLine.substring(24));
+          break;
+        }
+      }
+
+      in.close();
+
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+
+    return port;
+
+  }
+
+  private void clientSocketInit() throws Exception {
+      	  
+    Socket[] clientSockets = new Socket[machineVector.size()];
+    for (int i = 0; i < machineVector.size(); i++) {
+      boolean connected = false ; 	    
+      String daemon = (String) machineVector.get(i);
+      try {
+
+        logger.debug("Connecting to " + daemon + "@" + D_SER_PORT);
+		logger.debug(clientSockets.length);
+		clientSockets[i] = new Socket();
+        clientSockets[i].connect(
+			new InetSocketAddress(daemon, D_SER_PORT));
+        connected = clientSockets[i].isConnected();
+	if(!connected) {
+	  System.out.println(" home-made ...");
+
+          if(System.getProperty("os.name").startsWith("Windows")) {   
+            CONF_FILE.delete() ;
+          }
+
+          throw new MPJRuntimeException("Cannot connect to the daemon "+
+			  "at machine <"+daemon+"> and port <"+
+			  D_SER_PORT+">."+
+			  "Please make sure that the machine is reachable "+
+			  "and running the daemon in 'sane' state"); 
+	}
+
+	doConnect(clientSockets[i]); 
+      }
+      catch(IOException ioe) {
+        if(System.getProperty("os.name").startsWith("Windows")) {   
+          CONF_FILE.delete() ;
+        }
+
+	System.out.println(" IOException in doConnect");
+        throw new MPJRuntimeException("Cannot connect to the daemon "+
+			"at machine <"+daemon+"> and port <"+
+			D_SER_PORT+">."+
+			"Please make sure that the machine is reachable "+
+			"and running the daemon in 'sane' state"); 
+      }
+      catch (Exception ccn1) {
+	  System.out.println(" rest of the exceptions ");
+        throw ccn1;
+      }
+    }
+  }
+
+  /**
+   * This method cleans up the device environments, closes the selectors, serverSocket, and all the other socketChannels
+   */
+  public void finish() {
+    logger.debug("\n---finish---");
+
+    try {
+      cfos.close();
+      
+      if(server != null) {
+        server.stop();
+        server.destroy();
+      }
+      
+      if(mpjServer != null) {
+        mpjServer.stop();
+        mpjServer.destroy();
+      }
+
+    }
+    catch (Exception e) {
+      //e.printStackTrace();
+    }
+  }
+
+  private void doConnect(Socket peerSocket) {
+    logger.debug("---doConnect---");
+
+    try {
+      peerSocket.setTcpNoDelay(true);
+    }
+    catch (Exception e) {}
+    peerSockets.add(peerSocket);
+    logger.debug("Adding the channel " + peerSocket + " to " + peerSockets);
+    logger.debug("Size of Peer Channels vector " + peerSockets.size());
+	peerSocket = null;
+    if (peerSockets.size() == machineVector.size()) {
+      Notify();
+    }
+  }
+  
+  /**
+   * Entry point to the class 
+   */
+  public static void main(String args[]) throws Exception {
+
+    try {
+      MPJRun client = new MPJRun(args);
+    }
+    catch (Exception e) {
+      throw e;
+    }
+
+  }
+
+  private void addShutdownHook() {
+    Runtime.getRuntime().addShutdownHook(new Thread() {
+      public void run() {
+        try {
+          for (int j = 0; j < peerSockets.size(); j++) {
+            Socket peerSocket = null;
+            peerSocket = peerSockets.get(j);
+			OutputStream os = peerSocket.getOutputStream();
+			buffer.clear();
+            buffer.put( (new String("kill")).getBytes());
+			buffer.flip();
+            os.write(buffer.array());
+			buffer.clear();
+          }
+
+          if(server != null) {
+            server.stop();
+            server.destroy();
+	  }
+
+          if(mpjServer != null) {
+            mpjServer.stop();
+            mpjServer.destroy();
+          }
+	  
+          cfos.close();
+        }
+        catch(Exception e){
+        }
+      }
+    });
+  }
+  
+}
+
+class InputHandlerThread extends Thread{
+  
+    private Socket peerSocket;
+	//int endCount=0,streamEndedCount=0;
+    int streamEndedCount=0 ;  // does nothing?  dbc
+    static int endCount = 0 ;
+	private Vector machineVector = new Vector();
+	private MPJRun mpjRun;
+  
+    public InputHandlerThread(Socket peerSocket,Vector machineVector,int streamEndedCount,MPJRun mpjRun){
+	
+		this.peerSocket =peerSocket;
+		this.machineVector = machineVector;
+		this.streamEndedCount = streamEndedCount;
+		this.mpjRun = mpjRun;
+	}
+    
+	public void run(){
+		
+		byte[] lilBuffer = new byte[4];
+        byte[] bigBuffer = new byte[10000];
+		try{
+		     InputStream is = peerSocket.getInputStream();
+			 int read=0;
+			 while((read=is.read(bigBuffer))!=-1){
+			 
+              String line = new String(bigBuffer, 0, read);
+              //RECEIVED
+              //logger.debug("line <" + line + ">");
+
+             // mpjRun.logger.debug("Does it endup with EXIT ? ==>" +
+               //           line.endsWith("EXIT"));
+
+              if (line.endsWith("EXIT")) {
+                mpjRun.logger.debug("InputHandlerThread received EXIT");
+                synchronized (InputHandlerThread.class) {
+                  endCount++;
+                  mpjRun.logger.debug("endCount = " + endCount + " mV.sz = " + machineVector.size());
+                  if (endCount == machineVector.size()) {
+                                  mpjRun.logger.debug("calling Notify");
+				  mpjRun.Notify();
+				  break;
+                  }
+                }
+              } 
+	          else {
+                System.out.print(line);
+              }
+			}
+		}
+		catch (Exception ioe1) {
+			ioe1.printStackTrace();
+			System.exit(0);
+        }
+	}
+  
+}

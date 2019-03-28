@@ -87,8 +87,8 @@ public class ParallelMandelbrot extends Thread {
         begin = me * b;
         end = begin + b;
         
-//        for (int i = me; i < N; i += P) {
-        for (int i = 0; i < N; i++) {
+        for (int i = me; i < N; i += P) {
+//        for (int i = 0; i < N; i++) {
 //            for (int j = me; j < N; j += P) {
             for (int j = 0; j < N; j++) {
 

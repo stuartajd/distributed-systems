@@ -7,7 +7,14 @@ package lab1;
 
 /**
  *
- * @author up772629
+ * Value of pi: 3.141592653589731
+ * Calculated in 86 milliseconds
+ * 
+ * Value of pi: 3.141592653589731
+ * Calculated in 108 milliseconds
+ * 
+ * Value of pi: 3.141592653589731
+ * 1Calculated in 94 milliseconds
  */
 public class SequentialPi {
     public static void main(String[] args) {

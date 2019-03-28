@@ -1,0 +1,925 @@
+/*
+ The MIT License
+
+ Copyright (c) 2005 - 2008
+   1. Distributed Systems Group, University of Portsmouth (2005)
+   2. Aamir Shafi (2005 - 2008)
+   3. Bryan Carpenter (2005 - 2008)
+   4. Mark Baker (2005 - 2008)
+
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+ NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+ THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+/*
+ * File         : MPJDaemon.java 
+ * Author       : Aamir Shafi, Bryan Carpenter, Deniz Unal
+ * Created      : Sun Dec 12 12:22:15 BST 2004
+ * Revision     : $Revision: 1.28 $
+ * Updated      : $Date: 2006/10/20 17:24:47 $
+ */
+
+package runtime.daemon;
+
+import java.nio.channels.*;
+import java.nio.*;
+import java.net.*;
+import java.io.*;
+import java.util.*;
+import java.security.*;
+import javax.crypto.*;
+
+import org.apache.log4j.Logger ;
+import org.apache.log4j.PropertyConfigurator ;
+import org.apache.log4j.PatternLayout ;
+import org.apache.log4j.FileAppender ;
+import org.apache.log4j.Level ;
+import org.apache.log4j.DailyRollingFileAppender ;
+import org.apache.log4j.spi.LoggerRepository ;
+
+import runtime.MPJRuntimeException ;  
+
+import java.util.concurrent.Semaphore ; 
+
+public class MPJDaemon {
+
+  private Socket peerSocket;
+  private ServerSocket serverSocket;
+  static Logger logger = null ; 
+  private int D_SER_PORT = 10000;
+  public int mpjPortBase = 20000;
+  static final boolean DEBUG = true ;
+  private String hostName = null;
+  String mpjHomeDir = null ;    
+    
+  
+  public MPJDaemon(String args[]) throws Exception {
+    
+    try {
+      InetAddress localaddr = InetAddress.getLocalHost();
+      hostName = localaddr.getHostName();
+    }
+    catch(Exception e) {
+      e.printStackTrace();
+    }
+    Map<String,String> map = System.getenv() ;
+    mpjHomeDir = map.get("MPJ_HOME");
+          
+    createLogger(mpjHomeDir); 
+
+    if(DEBUG && logger.isDebugEnabled()) { 
+      logger.debug("mpjHomeDir "+mpjHomeDir); 
+    }
+  
+    if (args.length == 1) {
+      
+      if(DEBUG && logger.isDebugEnabled()) { 
+        logger.debug (" args[0] " + args[0]);
+        logger.debug ("setting daemon port to" + args[0]);
+      }
+
+      D_SER_PORT = new Integer(args[0]).intValue();
+
+    }
+    else {
+      
+      throw new MPJRuntimeException("Usage: java MPJDaemon daemonServerPort");
+
+    }
+    serverSocketInit();
+    serverAccept();
+    
+  } 
+  
+  private void serverAccept() throws Exception {
+
+    HandlerThread handlerThread = null;
+
+    while(true){
+      try {
+        peerSocket = serverSocket.accept();
+        peerSocket.setTcpNoDelay(true);
+        handlerThread = new HandlerThread(peerSocket,this);
+        handlerThread.start();
+      }
+      catch (Exception e) {
+        e.printStackTrace();
+      }
+    }
+  }
+
+  private void serverSocketInit() {
+    
+    try {
+      serverSocket = new ServerSocket();
+      serverSocket.bind(new InetSocketAddress(D_SER_PORT));
+    }
+    catch (Exception cce) {
+      cce.printStackTrace();
+      System.exit(0);
+    }
+  }
+
+  static boolean matchMe(String line) throws Exception {
+
+    if(!line.contains("@") || line.startsWith("#") ) {
+      return false;
+    }
+
+    StringTokenizer token = new StringTokenizer(line, "@");    
+    boolean found = false; 
+    String hostName = token.nextToken() ;
+    InetAddress host = null ;
+    
+    try {    
+      host = InetAddress.getByName(hostName) ;
+    }
+    catch(Exception e) {
+      return false;         
+    }
+
+    Enumeration<NetworkInterface> cards =
+            NetworkInterface.getNetworkInterfaces() ;
+    
+    foundIt: 
+
+    while(cards.hasMoreElements()) {
+
+      NetworkInterface card = cards.nextElement() ;
+      Enumeration<InetAddress> addresses = card.getInetAddresses();
+
+      while(addresses.hasMoreElements()) {
+        InetAddress address = addresses.nextElement() ;
+        if(host.getHostName().equals(address.getHostName()) || 
+           host.getHostAddress().equals(address.getHostAddress())) {
+          found = true;
+          break foundIt;
+        }
+      }
+    }
+
+    return found; 
+  }
+  
+  
+  private void createLogger(String homeDir) throws MPJRuntimeException {
+  
+    if(logger == null) {
+
+      DailyRollingFileAppender fileAppender = null ;
+
+      try {
+        fileAppender = new DailyRollingFileAppender(
+                            new PatternLayout(
+                            " %-5p %c %x - %m\n" ),
+                            homeDir+"/logs/daemon-"+hostName+".log",
+                            "yyyy-MM-dd-a" );
+
+        Logger rootLogger = Logger.getRootLogger() ;
+        rootLogger.addAppender( fileAppender);
+        LoggerRepository rep =  rootLogger.getLoggerRepository() ;
+        rootLogger.setLevel ((Level) Level.ALL );
+        logger = Logger.getLogger( "mpjdaemon" );
+      }
+      catch(Exception e) {
+        throw new MPJRuntimeException(e) ;
+      }
+    }
+  }
+  
+
+  public static void main(String args[]) {
+    try {
+      MPJDaemon dae = new MPJDaemon(args);
+    }
+    catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+
+            //"-Xloggc:" + hostName + ".gc",
+            //"-XX:+PrintGCDetails",
+            //"-XX:+PrintGCTimeStamps",
+            //"-XX:+PrintGCApplicationConcurrentTime",
+            //"-XX:+PrintGCApplicationStoppedTime",
+            //"-Xnoclassgc",
+            //"-XX:MinHeapFreeRatio=5",
+            //"-XX:MaxHeapFreeRatio=5",
+            //"-Xms512M", "-Xmx512M",
+            //"-DSIZE=1000", "-DITERATIONS=100",
+            //"-Xdebug",
+            //"-Xrunjdwp:transport=dt_socket,address=11000,server=y,suspend=n",
+}
+
+
+class HandlerThread extends Thread {
+
+  private String wdir = null ;
+  private String URL = null; //http:server:portclient.jar
+  private String mpjURL = null; 
+  private String deviceName = null;
+  private String className = null ;
+  private ArrayList<String> jvmArgs = new ArrayList<String>();
+  private ArrayList<String> appArgs = new ArrayList<String>();
+  private String loader = null;  
+  private MyLogger logger = null ; 
+  private int processes = 0;  
+  private Socket peerSocket;
+  private BufferedReader reader = null;
+  private InputStream outp = null;
+  private boolean loop = true;
+  private volatile boolean kill_signal = false;
+  private PrintStream out = null;
+  private Semaphore outputHandlerSem = new Semaphore(1,true); 
+  private static final boolean DEBUG = MPJDaemon.DEBUG ;  
+  private int pos = 0;   
+  private String mpjHome = null ;
+  private String cmd = null;
+  private int D_SER_PORT = 10000;
+  private String mpjHomeDir = null ;
+  private Process p[] = null ;
+  private MPJDaemon mpjDaemon;
+  
+  public HandlerThread(Socket peerSocket,MPJDaemon mpjDaemon){
+  
+    this.peerSocket = peerSocket;
+    this.logger = new MyLogger(mpjDaemon.logger);
+    this.mpjHomeDir = mpjDaemon.mpjHomeDir;
+    this.mpjDaemon=mpjDaemon;
+    
+  }
+
+  private int getInt(byte[] buffer,int offset){
+    return ((int)buffer[offset]&0xFF)<<24|
+           ((int)buffer[offset+1]&0xFF)<<16|
+           ((int)buffer[offset+2]&0xFF)<<8|
+           ((int)buffer[offset+3]&0xFF);
+  
+  }
+
+  private void sendPorts(int numProcs){
+      
+    try{
+      
+      DataOutputStream dos = new DataOutputStream(peerSocket.getOutputStream());    
+      synchronized(mpjDaemon){
+        dos.writeInt(mpjDaemon.mpjPortBase);
+        mpjDaemon.mpjPortBase += 2*numProcs;
+      }
+    }
+    catch(Exception e) {
+    
+      e.printStackTrace();
+    }
+  
+  }
+
+  public void run(){
+      
+    InputStream inputStream = null;
+    DataInputStream dis=null;
+    int intNumProcs=0;
+    try {
+      inputStream = peerSocket.getInputStream();
+      dis=new DataInputStream(inputStream);
+      intNumProcs=dis.readInt();
+      sendPorts(intNumProcs);
+    }
+    catch(Exception ex) {
+      ex.printStackTrace();
+    }
+    
+    try {
+      inputStream = peerSocket.getInputStream();
+    }
+    catch(Exception ex) {
+      ex.printStackTrace();
+    }
+    
+    while(true){
+      byte[] lilArray = new byte[4];
+      int readInt = -1 ;
+      byte[] lilBuffer = new byte[8];
+      byte[] lilBuffer2 = new byte[4];
+      byte[] buffer = new byte[1000];
+      
+      try { 
+
+        inputStream.read(lilBuffer, 0, 8);
+
+        String read = new String(lilBuffer, 0, 4);
+        if(DEBUG && logger.isDebugEnabled()) { 
+          logger.debug ("READ_EVENT (String)<" + read + ">");
+        }
+
+        if (read.equals("url-")) {
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("url-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("URL Length -->" + length);
+          }
+          byte[] byteArray = new byte[length];
+          inputStream.read(byteArray);
+          URL = new String(byteArray);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("URL:<" + URL + ">");
+          }
+
+          if(URL.endsWith(".jar")) {
+            className = null ;        
+          }
+
+        }
+
+        if (read.equals("mul-")) {
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("mul-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("URL Length -->" + length);
+          }
+          byte[] byteArray = new byte[length];
+          inputStream.read(byteArray);
+          mpjURL = new String(byteArray);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("mpjURL:<" + mpjURL + ">");
+          }
+
+        }
+
+        if (read.equals("cls-")) {
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("cls-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("className length -->" + length);
+          }
+          byte[] byteArray = new byte[length];
+          inputStream.read(byteArray);
+          className = new String(byteArray);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("className :<" + className + ">");
+          }
+
+        }
+
+        if (read.equals("app-")) {
+
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("app-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("Application args Length -->" + length);
+          }
+
+
+          for(int j=0 ; j<length ; j++) {       
+            inputStream.read(lilBuffer2);
+            int argLen = getInt(lilBuffer2,4);
+            inputStream.read(buffer);
+            byte[] t = new byte[argLen];
+            for (int i = 0; i < argLen; i++) {
+              t[i]=buffer[i];
+            }
+            appArgs.add(new String(t)); 
+          }
+
+          //for loop to create a new array ...
+
+        }
+        else if (read.equals("num-")) {
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("num-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("should be 4, isit ? -->" + length);
+          }
+          inputStream.read(lilBuffer2);
+          processes = getInt(lilBuffer2,0);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("Num of processes ==>" + processes);
+          }
+        }
+
+        else if (read.equals("arg-")) {
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("arg-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("argu len -->"+length);
+          }
+
+          for(int j=0 ; j<length ; j++) {      
+            inputStream.read(lilBuffer2);
+            int argLen = getInt(lilBuffer2,0);
+            byte[] t = new byte[argLen];
+            inputStream.read(t);
+            jvmArgs.add(new String(t)); 
+          }
+
+          //for loop to create a new array ...
+        }
+
+        else if (read.equals("dev-")) {
+          if(DEBUG && logger.isDebugEnabled()) {
+            logger.debug ("dev-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("dev-Length -->" + length);
+          }
+
+
+          byte[] byteArray = new byte[length];
+          inputStream.read(byteArray);
+          deviceName = new String(byteArray);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("Device Name :<" + deviceName + ">");
+          }
+        }
+
+        else if (read.equals("ldr-")) {
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("ldr-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("ldr-Length -->" + length);
+          }
+
+          byte[] byteArray = new byte[length];
+          inputStream.read(byteArray);
+          loader = new String(byteArray);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("ldr:<"+loader+">");
+          }
+        }
+
+        else if (read.equals("wdr-")) {
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("wdr-");
+          }
+          int length = getInt(lilBuffer,4);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("wdr-Length -->" + length);
+          }
+          byte[] byteArray = new byte[length];
+          inputStream.read(byteArray);
+          wdir = new String(byteArray);
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("wdir :<"+wdir+">");
+          }
+        }
+
+        else if (read.equals("*GO*")) {
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("GO");
+          }
+          break;
+
+        }
+        
+      }
+      catch (Exception e) {
+
+      }
+    }
+    OutputStream eos=null;
+    try{
+      eos = peerSocket.getOutputStream();
+      handleRequest();
+    }
+    catch(Exception e)
+    {
+       e.printStackTrace(new PrintStream(eos));
+    }
+    
+  }
+
+  private void handleRequest() throws Exception {
+
+    BufferedReader bufferedReader = null;
+    InputStream in = null;
+    URL aURL = null;
+    String conf = URL.substring(0, (URL.lastIndexOf("/") + 1));
+    String config = conf + "mpjdev.conf";
+    String rank_ = null;
+
+    try {
+      aURL = new URL(new String(config));
+      in = aURL.openStream();
+    }
+    catch (Exception e) {
+      e.printStackTrace();
+    }
+
+    bufferedReader = new BufferedReader(new InputStreamReader(in));
+    OutputHandler [] outputThreads = new OutputHandler[processes] ;
+    p = new Process[processes] ;    
+    int iter = 0;
+
+    for (int j = 0; j < processes; j++) {
+      String line = null;
+      boolean loop = true;
+
+      while (loop) {
+        line = bufferedReader.readLine();
+
+        if(DEBUG && logger.isDebugEnabled()) { 
+          logger.debug ("line read <" + line + ">");
+        }
+
+        if ( (line != null) &&
+            (MPJDaemon.matchMe(line))) {  
+
+          StringTokenizer tokenizer = new StringTokenizer(line, "@");
+          tokenizer.nextToken();
+          tokenizer.nextToken();
+          rank_ = tokenizer.nextToken();
+
+          if(DEBUG && logger.isDebugEnabled()) { 
+            logger.debug ("rank_ " + rank_);
+          }
+        
+          loop = false;
+
+        }
+        else {
+          iter++;
+          if (iter > (processes + 100)) {
+            if(DEBUG && logger.isDebugEnabled()) { 
+              logger.debug (" read all entries from config file");
+            }
+            loop = false;
+          }
+          else {
+            continue;
+          }
+        } //end else
+
+
+      } //end while
+
+      String[] jArgs = jvmArgs.toArray(new String[0]); 
+      boolean now = false;
+      boolean noSwitch = true ;
+
+      for(int e=0 ; e<jArgs.length; e++) {
+
+        if(DEBUG && logger.isDebugEnabled()) { 
+          logger.debug("jArgs["+e+"]="+jArgs[e]);
+        }
+
+        if(now) {
+        
+          String cp = jvmArgs.remove(e);
+        
+          if(loader.equals("useLocalLoader")) {
+            cp = "."+File.pathSeparator+""+
+                   mpjHomeDir+"/lib/loader1.jar"+
+                   File.pathSeparator+""+mpjHomeDir+"/lib/mpj.jar"+
+                   File.pathSeparator+""+mpjHomeDir+"/lib/log4j-1.2.11.jar"+
+                   File.pathSeparator+""+mpjHomeDir+"/lib/wrapper.jar"+
+                   File.pathSeparator+cp;
+          }
+          else if(loader.equals("useRemoteLoader")) {
+            cp = //"."+File.pathSeparator+""+
+                  mpjHomeDir+"/lib/loader1.jar"+
+                  File.pathSeparator+""+mpjHomeDir+"/lib/log4j-1.2.11.jar"+
+                  File.pathSeparator+""+mpjHomeDir+"/lib/wrapper.jar"+
+                  File.pathSeparator+cp;
+          }
+        
+          jvmArgs.add(e,cp);
+          now = false;
+        }
+
+        if(jArgs[e].equals("-cp")) {
+          now = true;
+          noSwitch = false;
+        }
+
+      }
+
+      if(noSwitch) {
+        jvmArgs.add("-cp");
+
+        if(loader.equals("useLocalLoader")) {
+          jvmArgs.add("."+File.pathSeparator+""
+                  +mpjHomeDir+"/lib/loader1.jar"+
+                  File.pathSeparator+""+mpjHomeDir+"/lib/mpj.jar"+
+                  File.pathSeparator+""+mpjHomeDir+"/lib/log4j-1.2.11.jar"+
+                  File.pathSeparator+""+mpjHomeDir+"/lib/wrapper.jar" );
+        }
+        else if(loader.equals("useRemoteLoader")) {
+          jvmArgs.add(//"."+File.pathSeparator+""+
+                  mpjHomeDir+"/lib/loader1.jar"+
+                  File.pathSeparator+""+mpjHomeDir+"/lib/log4j-1.2.11.jar"+
+                  File.pathSeparator+""+mpjHomeDir+"/lib/wrapper.jar" );
+        }
+      }
+
+      jArgs = jvmArgs.toArray(new String[0]);
+
+      for(int e=0 ; e<jArgs.length; e++) {
+      
+        if(DEBUG && logger.isDebugEnabled()) { 
+          logger.debug("modified: jArgs["+e+"]="+jArgs[e]);
+        }
+
+      }
+
+      String[] aArgs = appArgs.toArray(new String[0]); 
+
+      String[] ex = new String[ (9+jArgs.length+aArgs.length) ]; 
+      ex[0] = "java";
+
+      //System.arraycopy ... can be used ..here ...
+      for(int i=0 ; i<jArgs.length ; i++) { 
+        ex[i+1] = jArgs[i];   
+      }
+
+      int indx = jArgs.length+1; 
+
+      ex[indx] = "runtime.daemon.Wrapper" ; indx++ ;
+      ex[indx] = URL; indx++ ; 
+      ex[indx] = Integer.toString(processes); indx++ ; 
+      ex[indx] = deviceName; indx++ ; 
+      ex[indx] = rank_ ; indx++ ;
+      ex[indx] = loader ; indx++ ;
+      ex[indx] = mpjURL; indx++ ;
+
+      if(className != null) {
+        ex[indx] = className ; 
+      }
+      else {
+        ex[indx] = "dummy" ; //this is JAR case ..this arg will never 
+                             //be used ...
+      }
+
+      //System.arraycopy ... can be used ..here ...
+      for(int i=0 ; i< aArgs.length ; i++) { 
+        ex[i+9+jArgs.length] = aArgs[i];   
+      }
+
+      if(DEBUG && logger.isDebugEnabled()) { 
+        for (int i = 0; i < ex.length; i++) {
+          logger.debug(i+": "+ ex[i]);
+        }  
+      }
+
+      /*... Making the command finishes here ...*/
+
+      if(DEBUG && logger.isDebugEnabled()) { 
+        for (int i = 0; i < ex.length; i++) {
+          logger.debug(i+": "+ ex[i]);
+        }  
+      }
+
+      ProcessBuilder pb = new ProcessBuilder(ex);
+      pb.directory(new File(wdir)) ;
+      pb.redirectErrorStream(true); 
+
+      if(DEBUG && logger.isDebugEnabled()) { 
+        logger.debug("starting the process ");
+      }
+
+      try{
+        p[j] = pb.start();
+      
+      }
+      catch(Exception exc){
+
+        pb.directory(null);
+        p[j] = pb.start();
+      }
+      
+
+      /* Step 4: Start a new thread to handle output from this particular
+                 JVM. 
+         FIXME:  Now this seems like a good amount of overhead. If
+                 we start 4 JVMs on a quad-core CPU, we also start 4 
+                 additional threads to handle I/O. Is it possible to 
+                 get rid of this overhead?
+      */ 
+      outputThreads[j] = new OutputHandler(p[j],peerSocket) ; 
+      outputThreads[j].start();
+
+      if(DEBUG && logger.isDebugEnabled()) { 
+        logger.debug("started the process "); 
+      }
+    } //end for loop.
+
+    try { 
+      bufferedReader.close() ; 
+      in.close() ; 
+    }
+    catch(Exception e) { 
+      e.printStackTrace() ; 
+    } 
+
+    KillHandler killHandlerThread = new KillHandler(p,peerSocket);
+    killHandlerThread.start();
+    
+    //Wait for the I/O threads to finish. They finish when 
+    // their corresponding JVMs finish. 
+    for (int j = 0; j < processes; j++) {
+      outputThreads[j].join();
+    }
+
+    if(DEBUG && logger.isDebugEnabled()) { 
+      logger.debug ("Stopping the output");
+    }
+    OutputStream excos = null;
+    try {
+      byte[] buff = new byte[1000];
+      buff = "EXIT".getBytes();
+      OutputStream os = peerSocket.getOutputStream();
+      os.write(buff);
+      excos = peerSocket.getOutputStream();
+    }
+    catch(Exception e)
+    {
+      e.printStackTrace(new PrintStream(excos));
+    }
+
+    try {
+      if(DEBUG && logger.isDebugEnabled()) { 
+        logger.debug ("Checking whether peerChannel is closed or what ?" +
+                      peerSocket);
+      }
+
+      if (!peerSocket.isClosed()) {
+        if(DEBUG && logger.isDebugEnabled()) { 
+          logger.debug ("Closing it ..."+peerSocket );
+        }
+        peerSocket.close();
+      } 
+
+      if(DEBUG && logger.isDebugEnabled()) { 
+        logger.debug("Was already closed, or i closed it");
+      }
+    }
+    catch (Exception e) { 
+      e.printStackTrace() ; 
+    }
+
+    if(DEBUG && logger.isDebugEnabled()) { 
+      logger.debug("\n\n ** .. execution ends .. ** \n\n");
+    }
+  }  
+}
+
+class MyLogger{
+
+  Logger logger;
+  MyLogger(Logger logger) {
+
+    this.logger = logger;
+
+  }
+
+  void debug(Object message){
+    synchronized(logger){
+      logger.debug(message);
+    }
+  }
+  
+  boolean isDebugEnabled(){
+      return logger.isDebugEnabled();
+
+  }
+
+}
+
+class OutputHandler extends Thread { 
+
+  Process p = null ;
+  Socket peerSocket;  
+
+  public OutputHandler(Process p,Socket peerSocket) { 
+    this.p = p;
+    this.peerSocket = peerSocket;
+  } 
+
+  public void run() {
+
+    OutputStream os =null;
+    try {
+      os = peerSocket.getOutputStream();
+    }
+    catch(Exception e){
+      e.printStackTrace();
+    }
+    InputStream outp = p.getInputStream() ;  
+    String line = "";
+    BufferedReader reader = new BufferedReader(new InputStreamReader(outp));
+       
+    if(MPJDaemon.DEBUG && MPJDaemon.logger.isDebugEnabled()) { 
+      MPJDaemon.logger.debug( "outputting ...");
+    }
+
+    try {
+      do {
+        if (!line.equals("")) {
+          line.trim(); 
+ 
+          synchronized (this) {
+            line+="\n";
+            os.write(line.getBytes());
+            //if(DEBUG && logger.isDebugEnabled()) { 
+            //  logger.debug(line);
+            //}
+          } 
+        }
+      }  while ( (line = reader.readLine()) != null); 
+        // && !kill_signal); 
+    }
+    catch (Exception e) {
+      if(MPJDaemon.DEBUG && MPJDaemon.logger.isDebugEnabled()) { 
+        MPJDaemon.logger.debug ("outputHandler =>" + e.getMessage());
+      }
+      e.printStackTrace();
+    } 
+  } //end run.
+}
+
+class KillHandler extends Thread{
+
+  Process[] p;
+  Socket peerSocket;
+
+  public KillHandler(Process[] p,Socket peerSocket){
+
+    this.peerSocket = peerSocket;
+    this.p = p;
+
+  }
+
+  public void run(){
+  
+    InputStream is = null;
+    boolean loop = true;
+    try{
+    
+      is  = peerSocket.getInputStream();
+    
+    }
+    catch(Exception exc){
+    
+      for(int i=0; i< p.length;i++)
+      {      
+        p[i].destroy();      
+      }
+      loop = false;
+    }
+    while(loop){
+      BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+      String line =null;
+      try{
+        line=reader.readLine();
+      }catch(Exception e){
+        for(int i=0; i< p.length;i++) {      
+          p[i].destroy();      
+        }
+        loop = false;
+        break;
+      }
+      if(line!=null){
+        if(line.indexOf("kill")!=-1){
+        
+          for(int i=0; i< p.length;i++)
+          {      
+            p[i].destroy();      
+          }
+          loop = false;
+          break;
+        }
+      }
+    }
+  }
+
+}

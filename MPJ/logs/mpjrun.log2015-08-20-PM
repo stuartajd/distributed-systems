@@ -1,0 +1,938 @@
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <1>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=1/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 1 are equal to machines 1
+ DEBUG runtime  - Adding a process each into the hashtable
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56640] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56640]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 1
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56640]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=2/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56648] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56648]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56648]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <1>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=1/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 1 are equal to machines 1
+ DEBUG runtime  - Adding a process each into the hashtable
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56660] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56660]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 1
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56660]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=2/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56667] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56667]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56667]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <1>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=1/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 1 are equal to machines 1
+ DEBUG runtime  - Adding a process each into the hashtable
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56683] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56683]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 1
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56683]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=2/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56690] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56690]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56690]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <1>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=1/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 1 are equal to machines 1
+ DEBUG runtime  - Adding a process each into the hashtable
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56704] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56704]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 1
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56704]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=2/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56711] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56711]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=56711]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <1>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=1/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 1 are equal to machines 1
+ DEBUG runtime  - Adding a process each into the hashtable
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57199] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57199]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 1
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57199]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=1}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <2>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=2/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 2 are greater than than machines 1
+ DEBUG runtime  - divisor 2
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57206] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57206]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 2
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57206]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=2}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=4/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57250] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57250]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57250]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=4/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57621] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57621]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57621]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=4/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57807] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57807]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=57807]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=4/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=58021] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=58021]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=58021]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=4/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59362] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59362]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59362]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=4/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59391] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59391]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59391]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/p=4/trunc-ratings>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <148.197.137.109>
+ DEBUG runtime  - nameT S7LCARPENB1.uni.ds.port.ac.uk
+ DEBUG runtime  - addressT 148.197.137.109
+ DEBUG runtime  - Line 148.197.137.109 added to vector [S7LCARPENB1.uni.ds.port.ac.uk]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH <D:\dbc\creche\collab-filtering\mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - Address: S7LCARPENB1/148.197.137.109
+ DEBUG runtime  - Name :S7LCARPENB1
+ DEBUG runtime  - spmdClass<http://148.197.137.109:15000/>
+ DEBUG runtime  - Connecting to S7LCARPENB1.uni.ds.port.ac.uk@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59421] to [Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59421]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=49 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=S7LCARPENB1.uni.ds.port.ac.uk/148.197.137.109,port=10000,localport=59421]0
+ DEBUG runtime  - procsPerMachineTable {S7LCARPENB1.uni.ds.port.ac.uk=4}

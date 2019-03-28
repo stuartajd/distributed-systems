@@ -1,0 +1,2001 @@
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <32>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node76>
+ DEBUG runtime  - nameT node76
+ DEBUG runtime  - addressT 10.30.0.176
+ DEBUG runtime  - Line node76 added to vector [node76]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 32 are greater than than machines 1
+ DEBUG runtime  - divisor 32
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node76=32}
+ DEBUG runtime  - Address: node76/10.30.0.176
+ DEBUG runtime  - Name :node76
+ DEBUG runtime  - spmdClass<http://10.30.0.176:15000/>
+ DEBUG runtime  - Connecting to node76@10000
+ DEBUG runtime  - 1
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <32>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node76>
+ DEBUG runtime  - nameT node76
+ DEBUG runtime  - addressT 10.30.0.176
+ DEBUG runtime  - Line node76 added to vector [node76]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 32 are greater than than machines 1
+ DEBUG runtime  - divisor 32
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node76=32}
+ DEBUG runtime  - Address: node76/10.30.0.176
+ DEBUG runtime  - Name :node76
+ DEBUG runtime  - spmdClass<http://10.30.0.176:15000/>
+ DEBUG runtime  - Connecting to node76@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node76/10.30.0.176,port=10000,localport=52494] to [Socket[addr=node76/10.30.0.176,port=10000,localport=52494]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {node76=32}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 32
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node76/10.30.0.176,port=10000,localport=52494]0
+ DEBUG runtime  - procsPerMachineTable {node76=32}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node76>
+ DEBUG runtime  - nameT node76
+ DEBUG runtime  - addressT 10.30.0.176
+ DEBUG runtime  - Line node76 added to vector [node76]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node76=4}
+ DEBUG runtime  - Address: node76/10.30.0.176
+ DEBUG runtime  - Name :node76
+ DEBUG runtime  - spmdClass<http://10.30.0.176:15000/>
+ DEBUG runtime  - Connecting to node76@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node76/10.30.0.176,port=10000,localport=57905] to [Socket[addr=node76/10.30.0.176,port=10000,localport=57905]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {node76=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node76/10.30.0.176,port=10000,localport=57905]0
+ DEBUG runtime  - procsPerMachineTable {node76=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node76>
+ DEBUG runtime  - nameT node76
+ DEBUG runtime  - addressT 10.30.0.176
+ DEBUG runtime  - Line node76 added to vector [node76]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node76=4}
+ DEBUG runtime  - Address: node76/10.30.0.176
+ DEBUG runtime  - Name :node76
+ DEBUG runtime  - spmdClass<http://10.30.0.176:15000/>
+ DEBUG runtime  - Connecting to node76@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node76/10.30.0.176,port=10000,localport=39926] to [Socket[addr=node76/10.30.0.176,port=10000,localport=39926]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {node76=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node76/10.30.0.176,port=10000,localport=39926]0
+ DEBUG runtime  - procsPerMachineTable {node76=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node71=4}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=58290] to [Socket[addr=node71/10.30.0.171,port=10000,localport=58290]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=58290]0
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node71=4}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=58860] to [Socket[addr=node71/10.30.0.171,port=10000,localport=58860]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=58860]0
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node71=4}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=60999] to [Socket[addr=node71/10.30.0.171,port=10000,localport=60999]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=60999]0
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node71=4}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=52245] to [Socket[addr=node71/10.30.0.171,port=10000,localport=52245]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=52245]0
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node71=4}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 1
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 4 are greater than than machines 1
+ DEBUG runtime  - divisor 4
+ DEBUG runtime  - remainder 0
+ DEBUG runtime  - procPerMachineTable==>{node71=4}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 1
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=54251] to [Socket[addr=node71/10.30.0.171,port=10000,localport=54251]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 4
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=54251]0
+ DEBUG runtime  - procsPerMachineTable {node71=4}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=46960] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46960]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=56441] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46960], Socket[addr=node32/10.30.0.132,port=10000,localport=56441]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=42536] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46960], Socket[addr=node32/10.30.0.132,port=10000,localport=56441], Socket[addr=node35/10.30.0.135,port=10000,localport=42536]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=36766] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46960], Socket[addr=node32/10.30.0.132,port=10000,localport=56441], Socket[addr=node35/10.30.0.135,port=10000,localport=42536], Socket[addr=node62/10.30.0.162,port=10000,localport=36766]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=42830] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46960], Socket[addr=node32/10.30.0.132,port=10000,localport=56441], Socket[addr=node35/10.30.0.135,port=10000,localport=42536], Socket[addr=node62/10.30.0.162,port=10000,localport=36766], Socket[addr=node65/10.30.0.165,port=10000,localport=42830]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=46966] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46966]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=56447] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46966], Socket[addr=node32/10.30.0.132,port=10000,localport=56447]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=42542] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46966], Socket[addr=node32/10.30.0.132,port=10000,localport=56447], Socket[addr=node35/10.30.0.135,port=10000,localport=42542]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=36772] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46966], Socket[addr=node32/10.30.0.132,port=10000,localport=56447], Socket[addr=node35/10.30.0.135,port=10000,localport=42542], Socket[addr=node62/10.30.0.162,port=10000,localport=36772]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=42836] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46966], Socket[addr=node32/10.30.0.132,port=10000,localport=56447], Socket[addr=node35/10.30.0.135,port=10000,localport=42542], Socket[addr=node62/10.30.0.162,port=10000,localport=36772], Socket[addr=node65/10.30.0.165,port=10000,localport=42836]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=54844] to [Socket[addr=node31/10.30.0.131,port=10000,localport=46966], Socket[addr=node32/10.30.0.132,port=10000,localport=56447], Socket[addr=node35/10.30.0.135,port=10000,localport=42542], Socket[addr=node62/10.30.0.162,port=10000,localport=36772], Socket[addr=node65/10.30.0.165,port=10000,localport=42836], Socket[addr=node71/10.30.0.171,port=10000,localport=54844]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=46966]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=56447]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=42542]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=36772]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=42836]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=54844]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=53790] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53790]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=35038] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53790], Socket[addr=node32/10.30.0.132,port=10000,localport=35038]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=49366] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53790], Socket[addr=node32/10.30.0.132,port=10000,localport=35038], Socket[addr=node35/10.30.0.135,port=10000,localport=49366]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=43596] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53790], Socket[addr=node32/10.30.0.132,port=10000,localport=35038], Socket[addr=node35/10.30.0.135,port=10000,localport=49366], Socket[addr=node62/10.30.0.162,port=10000,localport=43596]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=49660] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53790], Socket[addr=node32/10.30.0.132,port=10000,localport=35038], Socket[addr=node35/10.30.0.135,port=10000,localport=49366], Socket[addr=node62/10.30.0.162,port=10000,localport=43596], Socket[addr=node65/10.30.0.165,port=10000,localport=49660]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=33435] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53790], Socket[addr=node32/10.30.0.132,port=10000,localport=35038], Socket[addr=node35/10.30.0.135,port=10000,localport=49366], Socket[addr=node62/10.30.0.162,port=10000,localport=43596], Socket[addr=node65/10.30.0.165,port=10000,localport=49660], Socket[addr=node71/10.30.0.171,port=10000,localport=33435]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=53790]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=35038]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=49366]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=43596]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=49660]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=33435]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=48114] to [Socket[addr=node31/10.30.0.131,port=10000,localport=48114]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=57595] to [Socket[addr=node31/10.30.0.131,port=10000,localport=48114], Socket[addr=node32/10.30.0.132,port=10000,localport=57595]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=43690] to [Socket[addr=node31/10.30.0.131,port=10000,localport=48114], Socket[addr=node32/10.30.0.132,port=10000,localport=57595], Socket[addr=node35/10.30.0.135,port=10000,localport=43690]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=37920] to [Socket[addr=node31/10.30.0.131,port=10000,localport=48114], Socket[addr=node32/10.30.0.132,port=10000,localport=57595], Socket[addr=node35/10.30.0.135,port=10000,localport=43690], Socket[addr=node62/10.30.0.162,port=10000,localport=37920]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=43984] to [Socket[addr=node31/10.30.0.131,port=10000,localport=48114], Socket[addr=node32/10.30.0.132,port=10000,localport=57595], Socket[addr=node35/10.30.0.135,port=10000,localport=43690], Socket[addr=node62/10.30.0.162,port=10000,localport=37920], Socket[addr=node65/10.30.0.165,port=10000,localport=43984]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=55992] to [Socket[addr=node31/10.30.0.131,port=10000,localport=48114], Socket[addr=node32/10.30.0.132,port=10000,localport=57595], Socket[addr=node35/10.30.0.135,port=10000,localport=43690], Socket[addr=node62/10.30.0.162,port=10000,localport=37920], Socket[addr=node65/10.30.0.165,port=10000,localport=43984], Socket[addr=node71/10.30.0.171,port=10000,localport=55992]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=48114]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=57595]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=43690]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=37920]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=43984]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=55992]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=58768] to [Socket[addr=node31/10.30.0.131,port=10000,localport=58768]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=40016] to [Socket[addr=node31/10.30.0.131,port=10000,localport=58768], Socket[addr=node32/10.30.0.132,port=10000,localport=40016]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=54344] to [Socket[addr=node31/10.30.0.131,port=10000,localport=58768], Socket[addr=node32/10.30.0.132,port=10000,localport=40016], Socket[addr=node35/10.30.0.135,port=10000,localport=54344]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=48574] to [Socket[addr=node31/10.30.0.131,port=10000,localport=58768], Socket[addr=node32/10.30.0.132,port=10000,localport=40016], Socket[addr=node35/10.30.0.135,port=10000,localport=54344], Socket[addr=node62/10.30.0.162,port=10000,localport=48574]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=54638] to [Socket[addr=node31/10.30.0.131,port=10000,localport=58768], Socket[addr=node32/10.30.0.132,port=10000,localport=40016], Socket[addr=node35/10.30.0.135,port=10000,localport=54344], Socket[addr=node62/10.30.0.162,port=10000,localport=48574], Socket[addr=node65/10.30.0.165,port=10000,localport=54638]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=38413] to [Socket[addr=node31/10.30.0.131,port=10000,localport=58768], Socket[addr=node32/10.30.0.132,port=10000,localport=40016], Socket[addr=node35/10.30.0.135,port=10000,localport=54344], Socket[addr=node62/10.30.0.162,port=10000,localport=48574], Socket[addr=node65/10.30.0.165,port=10000,localport=54638], Socket[addr=node71/10.30.0.171,port=10000,localport=38413]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=58768]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=40016]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=54344]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=48574]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=54638]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=38413]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=45688] to [Socket[addr=node31/10.30.0.131,port=10000,localport=45688]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=55169] to [Socket[addr=node31/10.30.0.131,port=10000,localport=45688], Socket[addr=node32/10.30.0.132,port=10000,localport=55169]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=41264] to [Socket[addr=node31/10.30.0.131,port=10000,localport=45688], Socket[addr=node32/10.30.0.132,port=10000,localport=55169], Socket[addr=node35/10.30.0.135,port=10000,localport=41264]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=35494] to [Socket[addr=node31/10.30.0.131,port=10000,localport=45688], Socket[addr=node32/10.30.0.132,port=10000,localport=55169], Socket[addr=node35/10.30.0.135,port=10000,localport=41264], Socket[addr=node62/10.30.0.162,port=10000,localport=35494]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=41558] to [Socket[addr=node31/10.30.0.131,port=10000,localport=45688], Socket[addr=node32/10.30.0.132,port=10000,localport=55169], Socket[addr=node35/10.30.0.135,port=10000,localport=41264], Socket[addr=node62/10.30.0.162,port=10000,localport=35494], Socket[addr=node65/10.30.0.165,port=10000,localport=41558]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=53566] to [Socket[addr=node31/10.30.0.131,port=10000,localport=45688], Socket[addr=node32/10.30.0.132,port=10000,localport=55169], Socket[addr=node35/10.30.0.135,port=10000,localport=41264], Socket[addr=node62/10.30.0.162,port=10000,localport=35494], Socket[addr=node65/10.30.0.165,port=10000,localport=41558], Socket[addr=node71/10.30.0.171,port=10000,localport=53566]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=45688]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=55169]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=41264]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=35494]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=41558]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=53566]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=50029] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50029]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=59510] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50029], Socket[addr=node32/10.30.0.132,port=10000,localport=59510]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=45605] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50029], Socket[addr=node32/10.30.0.132,port=10000,localport=59510], Socket[addr=node35/10.30.0.135,port=10000,localport=45605]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=39835] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50029], Socket[addr=node32/10.30.0.132,port=10000,localport=59510], Socket[addr=node35/10.30.0.135,port=10000,localport=45605], Socket[addr=node62/10.30.0.162,port=10000,localport=39835]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=45899] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50029], Socket[addr=node32/10.30.0.132,port=10000,localport=59510], Socket[addr=node35/10.30.0.135,port=10000,localport=45605], Socket[addr=node62/10.30.0.162,port=10000,localport=39835], Socket[addr=node65/10.30.0.165,port=10000,localport=45899]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=57907] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50029], Socket[addr=node32/10.30.0.132,port=10000,localport=59510], Socket[addr=node35/10.30.0.135,port=10000,localport=45605], Socket[addr=node62/10.30.0.162,port=10000,localport=39835], Socket[addr=node65/10.30.0.165,port=10000,localport=45899], Socket[addr=node71/10.30.0.171,port=10000,localport=57907]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=50029]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=59510]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=45605]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=39835]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=45899]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=57907]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=53810] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53810]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=35058] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53810], Socket[addr=node32/10.30.0.132,port=10000,localport=35058]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=49386] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53810], Socket[addr=node32/10.30.0.132,port=10000,localport=35058], Socket[addr=node35/10.30.0.135,port=10000,localport=49386]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=43616] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53810], Socket[addr=node32/10.30.0.132,port=10000,localport=35058], Socket[addr=node35/10.30.0.135,port=10000,localport=49386], Socket[addr=node62/10.30.0.162,port=10000,localport=43616]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=49680] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53810], Socket[addr=node32/10.30.0.132,port=10000,localport=35058], Socket[addr=node35/10.30.0.135,port=10000,localport=49386], Socket[addr=node62/10.30.0.162,port=10000,localport=43616], Socket[addr=node65/10.30.0.165,port=10000,localport=49680]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=33455] to [Socket[addr=node31/10.30.0.131,port=10000,localport=53810], Socket[addr=node32/10.30.0.132,port=10000,localport=35058], Socket[addr=node35/10.30.0.135,port=10000,localport=49386], Socket[addr=node62/10.30.0.162,port=10000,localport=43616], Socket[addr=node65/10.30.0.165,port=10000,localport=49680], Socket[addr=node71/10.30.0.171,port=10000,localport=33455]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=53810]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=35058]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=49386]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=43616]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=49680]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=33455]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=50139] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50139]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=59620] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50139], Socket[addr=node32/10.30.0.132,port=10000,localport=59620]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=45715] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50139], Socket[addr=node32/10.30.0.132,port=10000,localport=59620], Socket[addr=node35/10.30.0.135,port=10000,localport=45715]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=39945] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50139], Socket[addr=node32/10.30.0.132,port=10000,localport=59620], Socket[addr=node35/10.30.0.135,port=10000,localport=45715], Socket[addr=node62/10.30.0.162,port=10000,localport=39945]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=46009] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50139], Socket[addr=node32/10.30.0.132,port=10000,localport=59620], Socket[addr=node35/10.30.0.135,port=10000,localport=45715], Socket[addr=node62/10.30.0.162,port=10000,localport=39945], Socket[addr=node65/10.30.0.165,port=10000,localport=46009]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=58017] to [Socket[addr=node31/10.30.0.131,port=10000,localport=50139], Socket[addr=node32/10.30.0.132,port=10000,localport=59620], Socket[addr=node35/10.30.0.135,port=10000,localport=45715], Socket[addr=node62/10.30.0.162,port=10000,localport=39945], Socket[addr=node65/10.30.0.165,port=10000,localport=46009], Socket[addr=node71/10.30.0.171,port=10000,localport=58017]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=50139]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=59620]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=45715]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=39945]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=46009]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=58017]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <64>
+ DEBUG runtime  - $MPJ_HOME: </users/dbc/soft/mpj-v0_35P02>
+ DEBUG runtime  - -dir: </users/dbc/creche/mpjuser>
+ DEBUG runtime  - -dev: <niodev>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <HelloWorld>
+ DEBUG runtime  - codeBase : </users/dbc/creche/mpjuser>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - line <node31>
+ DEBUG runtime  - nameT node31
+ DEBUG runtime  - addressT 10.30.0.131
+ DEBUG runtime  - Line node31 added to vector [node31]
+ DEBUG runtime  - line <node32>
+ DEBUG runtime  - nameT node32
+ DEBUG runtime  - addressT 10.30.0.132
+ DEBUG runtime  - Line node32 added to vector [node31, node32]
+ DEBUG runtime  - line <node35>
+ DEBUG runtime  - nameT node35
+ DEBUG runtime  - addressT 10.30.0.135
+ DEBUG runtime  - Line node35 added to vector [node31, node32, node35]
+ DEBUG runtime  - line <node62>
+ DEBUG runtime  - nameT node62
+ DEBUG runtime  - addressT 10.30.0.162
+ DEBUG runtime  - Line node62 added to vector [node31, node32, node35, node62]
+ DEBUG runtime  - line <node65>
+ DEBUG runtime  - nameT node65
+ DEBUG runtime  - addressT 10.30.0.165
+ DEBUG runtime  - Line node65 added to vector [node31, node32, node35, node62, node65]
+ DEBUG runtime  - line <node71>
+ DEBUG runtime  - nameT node71
+ DEBUG runtime  - addressT 10.30.0.171
+ DEBUG runtime  - Line node71 added to vector [node31, node32, node35, node62, node65, node71]
+ DEBUG runtime  - line <null>
+ DEBUG runtime  - CONF_FILE_PATH </users/dbc/creche/mpjuser/mpjdev.conf>
+ DEBUG runtime  - Processes Requested 64 are greater than than machines 6
+ DEBUG runtime  - divisor 10
+ DEBUG runtime  - remainder 4
+ DEBUG runtime  - procPerMachineTable==>{node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - procPerMachineTable==>{node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - Address: node71/10.30.0.171
+ DEBUG runtime  - Name :node71
+ DEBUG runtime  - spmdClass<http://10.30.0.171:15000/>
+ DEBUG runtime  - Connecting to node31@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node31/10.30.0.131,port=10000,localport=51289] to [Socket[addr=node31/10.30.0.131,port=10000,localport=51289]]
+ DEBUG runtime  - Size of Peer Channels vector 1
+ DEBUG runtime  - Connecting to node32@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node32/10.30.0.132,port=10000,localport=60770] to [Socket[addr=node31/10.30.0.131,port=10000,localport=51289], Socket[addr=node32/10.30.0.132,port=10000,localport=60770]]
+ DEBUG runtime  - Size of Peer Channels vector 2
+ DEBUG runtime  - Connecting to node35@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node35/10.30.0.135,port=10000,localport=46865] to [Socket[addr=node31/10.30.0.131,port=10000,localport=51289], Socket[addr=node32/10.30.0.132,port=10000,localport=60770], Socket[addr=node35/10.30.0.135,port=10000,localport=46865]]
+ DEBUG runtime  - Size of Peer Channels vector 3
+ DEBUG runtime  - Connecting to node62@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node62/10.30.0.162,port=10000,localport=41095] to [Socket[addr=node31/10.30.0.131,port=10000,localport=51289], Socket[addr=node32/10.30.0.132,port=10000,localport=60770], Socket[addr=node35/10.30.0.135,port=10000,localport=46865], Socket[addr=node62/10.30.0.162,port=10000,localport=41095]]
+ DEBUG runtime  - Size of Peer Channels vector 4
+ DEBUG runtime  - Connecting to node65@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node65/10.30.0.165,port=10000,localport=47159] to [Socket[addr=node31/10.30.0.131,port=10000,localport=51289], Socket[addr=node32/10.30.0.132,port=10000,localport=60770], Socket[addr=node35/10.30.0.135,port=10000,localport=46865], Socket[addr=node62/10.30.0.162,port=10000,localport=41095], Socket[addr=node65/10.30.0.165,port=10000,localport=47159]]
+ DEBUG runtime  - Size of Peer Channels vector 5
+ DEBUG runtime  - Connecting to node71@10000
+ DEBUG runtime  - 6
+ DEBUG runtime  - ---doConnect---
+ DEBUG runtime  - Adding the channel Socket[addr=node71/10.30.0.171,port=10000,localport=59167] to [Socket[addr=node31/10.30.0.131,port=10000,localport=51289], Socket[addr=node32/10.30.0.132,port=10000,localport=60770], Socket[addr=node35/10.30.0.135,port=10000,localport=46865], Socket[addr=node62/10.30.0.162,port=10000,localport=41095], Socket[addr=node65/10.30.0.165,port=10000,localport=47159], Socket[addr=node71/10.30.0.171,port=10000,localport=59167]]
+ DEBUG runtime  - Size of Peer Channels vector 6
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node31/10.30.0.131,port=10000,localport=51289]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node32/10.30.0.132,port=10000,localport=60770]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node35/10.30.0.135,port=10000,localport=46865]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 11
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node62/10.30.0.162,port=10000,localport=41095]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node65/10.30.0.165,port=10000,localport=47159]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - buffer (initial)java.nio.HeapByteBuffer[pos=0 lim=1000 cap=1000]
+ DEBUG runtime  - buffer (after putting url-) java.nio.HeapByteBuffer[pos=4 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray.length)java.nio.HeapByteBuffer[pos=8 lim=1000 cap=1000]
+ DEBUG runtime  - buffer urlArray itself java.nio.HeapByteBuffer[pos=33 lim=1000 cap=1000]
+ DEBUG runtime  - buffer java.nio.HeapByteBuffer[pos=37 lim=1000 cap=1000]
+ DEBUG runtime  - buffer(after writing 4) java.nio.HeapByteBuffer[pos=41 lim=1000 cap=1000]
+ DEBUG runtime  - nProcesses 10
+ DEBUG runtime  - buffer(after nProcesses) java.nio.HeapByteBuffer[pos=45 lim=1000 cap=1000]
+ DEBUG runtime  - Sending to Socket[addr=node71/10.30.0.171,port=10000,localport=59167]0
+ DEBUG runtime  - procsPerMachineTable {node35=11, node71=10, node32=11, node31=11, node65=10, node62=11}
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - InputHandlerThread received EXIT
+ DEBUG runtime  - Calling the finish method now
+ DEBUG runtime  - 
+---finish---

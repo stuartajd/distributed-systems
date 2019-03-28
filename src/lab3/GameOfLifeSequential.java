@@ -11,7 +11,7 @@ import javax.swing.*;
 public class GameOfLifeSequential {
 
     final static int N = 1024;
-    final static int CELL_SIZE = 1;
+    final static int CELL_SIZE = 4;
     final static int DELAY = 0;
 
     static int[][] state = new int[N][N];

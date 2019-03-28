@@ -1,0 +1,110 @@
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <1>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <Files>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program>
+ DEBUG runtime  - appArgs.length: <3>
+ DEBUG runtime  -  appArgs[0]: <(x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  -  appArgs[1]: <ALSWR>
+ DEBUG runtime  -  appArgs[2]: <ml-20m/trunc-ratings>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className Files
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\creche\collab-filtering
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <1> threads
+ DEBUG runtime  - jArgs[0]=-cp
+ DEBUG runtime  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\creche\collab-filtering
+ DEBUG runtime  - 5: 1
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: .;D:\dbc\creche\mpj-v0_35P02\lib\mpi.jar;lib/fastutil-6.5.15.jar;C:\Program
+ DEBUG runtime  - 10: Files
+ DEBUG runtime  - 11: (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG runtime  - 12: ALSWR
+ DEBUG runtime  - 13: ml-20m/trunc-ratings
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\creche\collab-filtering
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <1>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <2>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <ALSWR>
+ DEBUG runtime  - codeBase : <D:\dbc\creche\collab-filtering>
+ DEBUG runtime  -  jvmArgs[0]: <-cp>
+ DEBUG runtime  -  jvmArgs[1]: <.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;>
+ DEBUG runtime  - appArgs.length: <1>
+ DEBUG runtime  -  appArgs[0]: <ml-20m/trunc-ratings>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className ALSWR
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\creche\collab-filtering
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <1> threads
+ DEBUG runtime  - jArgs[0]=-cp
+ DEBUG runtime  - jArgs[1]=.;D:\dbc\creche\mpj-v0_35P02\lib\mpj.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\creche\collab-filtering
+ DEBUG runtime  - 5: 1
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: .;D:\dbc\creche\mpj-v0_35P02\lib\mpi.jar;lib/fastutil-6.5.15.jar;C:\Program Files (x86)\Intel_sw_development_tools\compilers_and_libraries_2016.0.049\windows\daal\lib\daal.jar;
+ DEBUG runtime  - 10: ALSWR
+ DEBUG runtime  - 11: ml-20m/trunc-ratings
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\creche\collab-filtering
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...

@@ -1,0 +1,329 @@
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <MPJSquaresMandelbrot>
+ DEBUG runtime  - codeBase : <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className MPJSquaresMandelbrot
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <4> threads
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - 5: 4
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: EMPTY
+ DEBUG runtime  - 10: MPJSquaresMandelbrot
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <MPJSquaresMandelbrot>
+ DEBUG runtime  - codeBase : <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className MPJSquaresMandelbrot
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <4> threads
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - 5: 4
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: EMPTY
+ DEBUG runtime  - 10: MPJSquaresMandelbrot
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <4>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <MPJSquaresMandelbrot>
+ DEBUG runtime  - codeBase : <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className MPJSquaresMandelbrot
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <4> threads
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - 5: 4
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: EMPTY
+ DEBUG runtime  - 10: MPJSquaresMandelbrot
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <5>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <MPJSquaresMandelbrot>
+ DEBUG runtime  - codeBase : <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className MPJSquaresMandelbrot
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <5> threads
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - 5: 5
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: EMPTY
+ DEBUG runtime  - 10: MPJSquaresMandelbrot
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <5>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <MPJSquaresMandelbrot>
+ DEBUG runtime  - codeBase : <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className MPJSquaresMandelbrot
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <5> threads
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - 5: 5
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: EMPTY
+ DEBUG runtime  - 10: MPJSquaresMandelbrot
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <5>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <MPJSquaresMandelbrot>
+ DEBUG runtime  - codeBase : <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className MPJSquaresMandelbrot
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <5> threads
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - 5: 5
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: EMPTY
+ DEBUG runtime  - 10: MPJSquaresMandelbrot
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...
+ INFO  runtime  -  --MPJRun invoked--
+ INFO  runtime  -  adding shutdown hook thread
+ INFO  runtime  - processInput called ...
+ DEBUG runtime  - ###########################
+ DEBUG runtime  - -appargs: <default_app_arg>
+ DEBUG runtime  - -dport: <10000>
+ DEBUG runtime  - -mpjport: <20000>
+ DEBUG runtime  - -sport: <15000>
+ DEBUG runtime  - -np: <5>
+ DEBUG runtime  - $MPJ_HOME: <D:\dbc\creche\mpj-v0_35P02>
+ DEBUG runtime  - -dir: <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - -dev: <multicore>
+ DEBUG runtime  - -psl: <131072>
+ DEBUG runtime  - -jarName: <null>
+ DEBUG runtime  - jvmArgs.length: <0>
+ DEBUG runtime  - jarName : <null>
+ DEBUG runtime  - className : <MPJSquaresMandelbrot>
+ DEBUG runtime  - codeBase : <D:\dbc\teaching\disparp-2016-17\practicals\examples>
+ DEBUG runtime  - appArgs.length: <0>
+ DEBUG runtime  - ###########################
+ INFO  runtime  - jarName null
+ INFO  runtime  - className MPJSquaresMandelbrot
+ DEBUG runtime  - mpjHomeDir D:\dbc\creche\mpj-v0_35P02
+ DEBUG runtime  - McDaemon is waiting to accept connections ... 
+ DEBUG runtime  - wdir D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - A client has connected
+ DEBUG runtime  - the daemon will start <5> threads
+ DEBUG runtime  - cp = D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - modified: jArgs[0]=-cp
+ DEBUG runtime  - modified: jArgs[1]=D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 0: java
+ DEBUG runtime  - 1: -cp
+ DEBUG runtime  - 2: D:\dbc\creche\mpj-v0_35P02/lib/smpdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/xdev.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpjbuf.jar;D:\dbc\creche\mpj-v0_35P02/lib/loader2.jar;D:\dbc\creche\mpj-v0_35P02/lib/starter.jar;D:\dbc\creche\mpj-v0_35P02/lib/mpiExp.jar
+ DEBUG runtime  - 3: runtime.starter.MulticoreStarter
+ DEBUG runtime  - 4: D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - 5: 5
+ DEBUG runtime  - 6: smpdev
+ DEBUG runtime  - 7: useLocalLoader
+ DEBUG runtime  - 8: someDummympjURL
+ DEBUG runtime  - 9: EMPTY
+ DEBUG runtime  - 10: MPJSquaresMandelbrot
+ DEBUG runtime  - creating process-builder object 
+ DEBUG runtime  - wdir =D:\dbc\teaching\disparp-2016-17\practicals\examples
+ DEBUG runtime  - starting the MultithreadStarter.
+ DEBUG runtime  - started the MultithreadStarter.
+ DEBUG runtime  - Stopping the output
+ DEBUG runtime  - outputting ...

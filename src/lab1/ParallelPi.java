@@ -10,11 +10,14 @@ package lab1;
  * @author up772629
  * 
  * run:
-Value of pi: 3.141592653589923
-Calculated in 40 milliseconds
+* Value of pi: 3.141592653589923
+* Calculated in 40 milliseconds
 * 
 * Value of pi: 3.1415926535896697
-Calculated in 34 milliseconds
+* Calculated in 34 milliseconds
+* 
+* Parallel Value of pi: 3.141592653589923
+Calculated in 55 milliseconds
  */
 public class ParallelPi extends Thread {
 
@@ -40,7 +43,7 @@ public class ParallelPi extends Thread {
 
         double pi = step * (thread1.sum + thread2.sum);
 
-        System.out.println("Value of pi: " + pi);
+        System.out.println("Parallel Value of pi: " + pi);
 
         System.out.println("Calculated in "
                 + (endTime - startTime) + " milliseconds");
