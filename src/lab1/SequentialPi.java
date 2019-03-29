@@ -16,12 +16,13 @@ package lab1;
  * Value of pi: 3.141592653589731
  * 1Calculated in 94 milliseconds
  */
-public class SequentialPi {
-    public static void main(String[] args) {
+  public class SequentialPi {
+
+      public static void main(String[] args) {
 
           long startTime = System.currentTimeMillis();
 
-          int numSteps = 10000000;
+          int numSteps = 100000000;
 
           double step = 1.0 / (double) numSteps;
 
@@ -40,5 +41,5 @@ public class SequentialPi {
 
           System.out.println("Calculated in " +
                              (endTime - startTime) + " milliseconds");
-    }
-}
+      }
+  }}
